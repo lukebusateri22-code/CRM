@@ -6,6 +6,9 @@ const pool = require('./config/database');
 const authRoutes = require('./routes/auth');
 const importRoutes = require('./routes/import');
 const adminRoutes = require('./routes/admin');
+const contactsRoutes = require('./routes/contacts');
+const companiesRoutes = require('./routes/companies');
+const notificationsRoutes = require('./routes/notifications');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -29,6 +32,11 @@ app.use('/api/import', importRoutes);
 
 // Admin routes (admin authentication required)
 app.use('/api/admin', adminRoutes);
+
+// CRM data routes
+app.use('/api/contacts', contactsRoutes);
+app.use('/api/companies', companiesRoutes);
+app.use('/api/notifications', notificationsRoutes);
 
 // Health check
 app.get('/api/health', async (req, res) => {
