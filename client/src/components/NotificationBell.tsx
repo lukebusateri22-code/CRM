@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Bell, Check, X } from 'lucide-react';
 import { formatDistanceToNow } from 'date-fns';
+import { apiUrl } from '../config';
 
 interface Notification {
   id: number;
@@ -42,7 +43,7 @@ function NotificationBell() {
 
   const fetchNotifications = async () => {
     try {
-      const response = await fetch('/api/notifications');
+      const response = await fetch(apiUrl('/api/notifications'));
       const data = await response.json();
       setNotifications(data);
     } catch (error) {
@@ -52,7 +53,7 @@ function NotificationBell() {
 
   const fetchUnreadCount = async () => {
     try {
-      const response = await fetch('/api/notifications/unread');
+      const response = await fetch(apiUrl('/api/notifications/unread'));
       const data = await response.json();
       setUnreadCount(data.count);
     } catch (error) {
@@ -62,7 +63,7 @@ function NotificationBell() {
 
   const markAsRead = async (id: number) => {
     try {
-      await fetch(`/api/notifications/${id}/read`, { method: 'PATCH' });
+      await fetch(apiUrl(`/api/notifications/${id}/read`), { method: 'PATCH' });
       setNotifications(notifications.map(n => 
         n.id === id ? { ...n, read: true } : n
       ));
@@ -74,7 +75,7 @@ function NotificationBell() {
 
   const markAllAsRead = async () => {
     try {
-      await fetch('/api/notifications/mark-all-read', { method: 'PATCH' });
+      await fetch(apiUrl('/api/notifications/mark-all-read'), { method: 'PATCH' });
       setNotifications(notifications.map(n => ({ ...n, read: true })));
       setUnreadCount(0);
     } catch (error) {

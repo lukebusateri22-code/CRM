@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, Building2, Linkedin } from 'lucide-react';
+import { apiUrl } from '../config';
 
 interface Contact {
   id: number;
@@ -20,7 +21,7 @@ function Contacts() {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    fetch('/api/contacts')
+    fetch(apiUrl('/api/contacts'))
       .then(res => res.json())
       .then(data => {
         setContacts(data);

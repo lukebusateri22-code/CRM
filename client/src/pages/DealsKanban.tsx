@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { DollarSign, Calendar, Building2, User } from 'lucide-react';
+import { DollarSign, Calendar, Building2, User, Plus } from 'lucide-react';
+import { apiUrl } from '../config';
 import { format } from 'date-fns';
 import FeatureBadge from '../components/FeatureBadge';
 
@@ -32,7 +33,7 @@ function DealsKanban() {
   const [draggedDeal, setDraggedDeal] = useState<Deal | null>(null);
 
   useEffect(() => {
-    fetch('/api/deals')
+    fetch(apiUrl('/api/deals'))
       .then(res => res.json())
       .then(data => {
         setDeals(data);

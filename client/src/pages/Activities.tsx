@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Phone, Mail, Calendar, CheckCircle, Circle, FileText } from 'lucide-react';
+import { Plus, Phone, Mail, Calendar as CalendarIcon, CheckSquare, Search, Filter, Clock, CheckCircle2 } from 'lucide-react';
+import { apiUrl } from '../config';
 import { format } from 'date-fns';
 
 interface Activity {
@@ -38,7 +39,7 @@ function Activities() {
   const [filterStatus, setFilterStatus] = useState('All');
 
   useEffect(() => {
-    fetch('/api/activities')
+    fetch(apiUrl('/api/activities'))
       .then(res => res.json())
       .then(data => {
         setActivities(data);

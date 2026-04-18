@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Building2, Users, DollarSign, Globe, Phone, Mail } from 'lucide-react';
+import { apiUrl } from '../config';
 
 interface Company {
   id: number;
@@ -22,7 +23,7 @@ function Companies() {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    fetch('/api/companies')
+    fetch(apiUrl('/api/companies'))
       .then(res => res.json())
       .then(data => {
         setCompanies(data);

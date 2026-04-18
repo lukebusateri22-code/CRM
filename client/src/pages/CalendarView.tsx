@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Plus } from 'lucide-react';
+import { apiUrl } from '../config';
 import { format, startOfMonth, endOfMonth, eachDayOfInterval, isSameMonth, isSameDay, addMonths, subMonths, startOfWeek, endOfWeek } from 'date-fns';
 import FeatureBadge from '../components/FeatureBadge';
 
@@ -19,7 +20,7 @@ function CalendarView() {
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
 
   useEffect(() => {
-    fetch('/api/activities')
+    fetch(apiUrl('/api/activities'))
       .then(res => res.json())
       .then(data => setActivities(data));
   }, []);

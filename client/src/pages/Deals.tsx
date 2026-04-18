@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { DollarSign, Building2, User, Calendar } from 'lucide-react';
+import { apiUrl } from '../config';
 import { format } from 'date-fns';
 
 interface Deal {
@@ -29,7 +30,7 @@ function Deals() {
   const [filterStage, setFilterStage] = useState('All');
 
   useEffect(() => {
-    fetch('/api/deals')
+    fetch(apiUrl('/api/deals'))
       .then(res => res.json())
       .then(data => {
         setDeals(data);

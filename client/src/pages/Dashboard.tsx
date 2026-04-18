@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { TrendingUp, Users, Building2, DollarSign, Activity } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
+import { apiUrl } from '../config';
 
 interface DashboardStats {
   totalContacts: number;
@@ -37,9 +38,9 @@ function Dashboard() {
 
   useEffect(() => {
     Promise.all([
-      fetch('/api/dashboard/stats').then(res => res.json()),
-      fetch('/api/dashboard/deals-by-stage').then(res => res.json()),
-      fetch('/api/dashboard/recent-activities').then(res => res.json()),
+      fetch(apiUrl('/api/dashboard/stats')).then(res => res.json()),
+      fetch(apiUrl('/api/dashboard/deals-by-stage')).then(res => res.json()),
+      fetch(apiUrl('/api/dashboard/recent-activities')).then(res => res.json()),
     ]).then(([statsData, dealsData, activitiesData]) => {
       setStats(statsData);
       setDealsByStage(dealsData);
