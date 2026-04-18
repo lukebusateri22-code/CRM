@@ -24,7 +24,6 @@ import Workflows from './pages/Workflows';
 import Reports from './pages/Reports';
 import AIAnalytics from './pages/AIAnalytics';
 import Login from './pages/Login';
-import Signup from './pages/Signup';
 import ProtectedRoute from './components/ProtectedRoute';
 
 function Navigation() {
@@ -138,7 +137,6 @@ function App() {
             <Navigation />
             <Routes>
               <Route path="/login" element={<Login />} />
-              <Route path="/signup" element={<Signup />} />
               <Route path="/*" element={
                 <ProtectedRoute>
                   <>

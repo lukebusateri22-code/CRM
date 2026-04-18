@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { LogIn } from 'lucide-react';
 
@@ -86,10 +86,7 @@ function Login() {
 
           <div className="mt-6 text-center">
             <p className="text-sm text-gray-600">
-              Don't have an account?{' '}
-              <Link to="/signup" className="text-primary-600 hover:text-primary-700 font-semibold">
-                Sign up
-              </Link>
+              Contact your administrator for access
             </p>
           </div>
         </div>
