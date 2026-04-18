@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, Users, Building2, DollarSign, Calendar, Kanban, ListTodo, Brain, Zap, FileText, LogOut, User } from 'lucide-react';
+import { LayoutDashboard, Users, Building2, DollarSign, Calendar, Kanban, ListTodo, Brain, Zap, FileText, LogOut, User, Upload } from 'lucide-react';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { ToastProvider } from './contexts/ToastContext';
 import { AuthProvider } from './contexts/AuthContext';
@@ -26,6 +26,7 @@ import AIAnalytics from './pages/AIAnalytics';
 import Login from './pages/Login';
 import ProtectedRoute from './components/ProtectedRoute';
 import AdminPanel from './pages/AdminPanel';
+import DataImport from './pages/DataImport';
 
 function Navigation() {
   const location = useLocation();
@@ -42,6 +43,7 @@ function Navigation() {
   
   const navItems = [
     { path: '/', icon: LayoutDashboard, label: 'Dashboard' },
+    { path: '/import', icon: Upload, label: 'AI Import' },
     { path: '/contacts', icon: Users, label: 'Contacts' },
     { path: '/companies', icon: Building2, label: 'Companies' },
     { path: '/workflows', icon: Zap, label: 'Workflows' },
@@ -154,6 +156,7 @@ function App() {
                       <Routes>
                         <Route path="/" element={<Dashboard />} />
                         <Route path="/admin" element={<AdminPanel />} />
+                        <Route path="/import" element={<DataImport />} />
                         <Route path="/contacts" element={<Contacts />} />
                         <Route path="/contacts/:id" element={<ContactDetail />} />
                         <Route path="/companies" element={<Companies />} />
