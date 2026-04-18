@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, Building2, Linkedin } from 'lucide-react';
+import { Mail, Phone, Building2, Linkedin, Plus, Edit, Trash2 } from 'lucide-react';
 import { apiUrl } from '../config';
+import { useToast } from '../contexts/ToastContext';
+import ContactModal from '../components/ContactModal';
+import ConfirmDialog from '../components/ConfirmDialog';
 
 interface Contact {
   id: number;
@@ -17,17 +20,60 @@ interface Contact {
 
 function Contacts() {
   const [contacts, setContacts] = useState<Contact[]>([]);
+  const [companies, setCompanies] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
+  const [showModal, setShowModal] = useState(false);
+  const [selectedContact, setSelectedContact] = useState<Contact | undefined>();
+  const [deleteContact, setDeleteContact] = useState<Contact | null>(null);
+  const { showToast } = useToast();
 
   useEffect(() => {
-    fetch(apiUrl('/api/contacts'))
-      .then(res => res.json())
-      .then(data => {
-        setContacts(data);
-        setLoading(false);
-      });
+    loadData();
   }, []);
+
+  const loadData = async () => {
+    try {
+      const [contactsRes, companiesRes] = await Promise.all([
+        fetch(apiUrl('/api/contacts')),
+        fetch(apiUrl('/api/companies'))
+      ]);
+      const contactsData = await contactsRes.json();
+      const companiesData = await companiesRes.json();
+      setContacts(contactsData);
+      setCompanies(companiesData);
+    } catch (error) {
+      showToast('error', 'Failed to load data');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleAdd = () => {
+    setSelectedContact(undefined);
+    setShowModal(true);
+  };
+
+  const handleEdit = (contact: Contact) => {
+    setSelectedContact(contact);
+    setShowModal(true);
+  };
+
+  const handleSave = () => {
+    loadData();
+    showToast('success', selectedContact ? 'Contact updated successfully' : 'Contact created successfully');
+  };
+
+  const handleDelete = async () => {
+    if (!deleteContact) return;
+    try {
+      await fetch(apiUrl(`/api/contacts/${deleteContact.id}`), { method: 'DELETE' });
+      loadData();
+      showToast('success', 'Contact deleted successfully');
+    } catch (error) {
+      showToast('error', 'Failed to delete contact');
+    }
+  };
 
   const filteredContacts = contacts.filter(contact =>
     `${contact.first_name} ${contact.last_name}`.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -43,9 +89,16 @@ function Contacts() {
     <div className="space-y-6">
       <div className="flex justify-between items-center">
         <div>
-          <h1 className="text-3xl font-bold text-gray-900">Contacts</h1>
-          <p className="mt-2 text-sm text-gray-600">Manage your customer relationships</p>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Contacts</h1>
+          <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">Manage your customer relationships</p>
         </div>
+        <button
+          onClick={handleAdd}
+          className="flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
+        >
+          <Plus className="w-5 h-5" />
+          Add Contact
+        </button>
       </div>
 
       <div className="bg-white shadow rounded-lg">
@@ -76,6 +129,9 @@ function Contacts() {
                 </th>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Status
+                </th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Actions
                 </th>
               </tr>
             </thead>
@@ -133,6 +189,22 @@ function Contacts() {
                       {contact.status}
                     </span>
                   </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm">
+                    <div className="flex gap-2">
+                      <button
+                        onClick={() => handleEdit(contact)}
+                        className="text-primary-600 hover:text-primary-900 dark:text-primary-400 dark:hover:text-primary-300"
+                      >
+                        <Edit className="w-4 h-4" />
+                      </button>
+                      <button
+                        onClick={() => setDeleteContact(contact)}
+                        className="text-red-600 hover:text-red-900 dark:text-red-400 dark:hover:text-red-300"
+                      >
+                        <Trash2 className="w-4 h-4" />
+                      </button>
+                    </div>
+                  </td>
                 </tr>
               ))}
             </tbody>
@@ -142,6 +214,24 @@ function Contacts() {
       <div className="text-sm text-gray-500 text-center">
         Showing {filteredContacts.length} of {contacts.length} contacts
       </div>
+
+      <ContactModal
+        isOpen={showModal}
+        onClose={() => setShowModal(false)}
+        onSave={handleSave}
+        contact={selectedContact}
+        companies={companies}
+      />
+
+      <ConfirmDialog
+        isOpen={deleteContact !== null}
+        onClose={() => setDeleteContact(null)}
+        onConfirm={handleDelete}
+        title="Delete Contact"
+        message={`Are you sure you want to delete ${deleteContact?.first_name} ${deleteContact?.last_name}? This action cannot be undone.`}
+        confirmText="Delete"
+        type="danger"
+      />
     </div>
   );
 }

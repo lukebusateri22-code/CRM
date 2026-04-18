@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { DollarSign, Building2, User, Calendar } from 'lucide-react';
+import { DollarSign, Building2, User, Calendar, Plus, Edit, Trash2 } from 'lucide-react';
 import { apiUrl } from '../config';
 import { format } from 'date-fns';
+import { useToast } from '../contexts/ToastContext';
+import DealModal from '../components/DealModal';
+import ConfirmDialog from '../components/ConfirmDialog';
 
 interface Deal {
   id: number;
@@ -26,17 +29,64 @@ const stageColors: { [key: string]: string } = {
 
 function Deals() {
   const [deals, setDeals] = useState<Deal[]>([]);
+  const [companies, setCompanies] = useState<any[]>([]);
+  const [contacts, setContacts] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [filterStage, setFilterStage] = useState('All');
+  const [showModal, setShowModal] = useState(false);
+  const [selectedDeal, setSelectedDeal] = useState<Deal | undefined>();
+  const [deleteDeal, setDeleteDeal] = useState<Deal | null>(null);
+  const { showToast } = useToast();
 
   useEffect(() => {
-    fetch(apiUrl('/api/deals'))
-      .then(res => res.json())
-      .then(data => {
-        setDeals(data);
-        setLoading(false);
-      });
+    loadData();
   }, []);
+
+  const loadData = async () => {
+    try {
+      const [dealsRes, companiesRes, contactsRes] = await Promise.all([
+        fetch(apiUrl('/api/deals')),
+        fetch(apiUrl('/api/companies')),
+        fetch(apiUrl('/api/contacts'))
+      ]);
+      const dealsData = await dealsRes.json();
+      const companiesData = await companiesRes.json();
+      const contactsData = await contactsRes.json();
+      setDeals(dealsData);
+      setCompanies(companiesData);
+      setContacts(contactsData);
+    } catch (error) {
+      showToast('error', 'Failed to load data');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleAdd = () => {
+    setSelectedDeal(undefined);
+    setShowModal(true);
+  };
+
+  const handleEdit = (deal: Deal) => {
+    setSelectedDeal(deal);
+    setShowModal(true);
+  };
+
+  const handleSave = () => {
+    loadData();
+    showToast('success', selectedDeal ? 'Deal updated successfully' : 'Deal created successfully');
+  };
+
+  const handleDelete = async () => {
+    if (!deleteDeal) return;
+    try {
+      await fetch(apiUrl(`/api/deals/${deleteDeal.id}`), { method: 'DELETE' });
+      loadData();
+      showToast('success', 'Deal deleted successfully');
+    } catch (error) {
+      showToast('error', 'Failed to delete deal');
+    }
+  };
 
   const stages = ['All', 'Prospecting', 'Qualification', 'Proposal', 'Negotiation', 'Closed Won', 'Closed Lost'];
   const filteredDeals = filterStage === 'All' 
@@ -53,12 +103,21 @@ function Deals() {
     <div className="space-y-6">
       <div className="flex justify-between items-center">
         <div>
-          <h1 className="text-3xl font-bold text-gray-900">Deals</h1>
-          <p className="mt-2 text-sm text-gray-600">Monitor your sales pipeline</p>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Deals</h1>
+          <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">Monitor your sales pipeline</p>
         </div>
-        <div className="text-right">
-          <div className="text-sm text-gray-500">Total Pipeline Value</div>
-          <div className="text-2xl font-bold text-primary-600">${totalValue.toLocaleString()}</div>
+        <div className="flex items-center gap-4">
+          <div className="text-right">
+            <div className="text-sm text-gray-500 dark:text-gray-400">Total Pipeline Value</div>
+            <div className="text-2xl font-bold text-primary-600">${totalValue.toLocaleString()}</div>
+          </div>
+          <button
+            onClick={handleAdd}
+            className="flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
+          >
+            <Plus className="w-5 h-5" />
+            Add Deal
+          </button>
         </div>
       </div>
 
@@ -127,11 +186,25 @@ function Deals() {
             </div>
 
             <div className="border-t border-gray-200 pt-4">
-              <div className="w-full bg-gray-200 rounded-full h-2">
+              <div className="w-full bg-gray-200 rounded-full h-2 mb-3">
                 <div 
                   className="bg-primary-600 h-2 rounded-full transition-all"
                   style={{ width: `${deal.probability}%` }}
                 ></div>
+              </div>
+              <div className="flex gap-2 justify-end">
+                <button
+                  onClick={() => handleEdit(deal)}
+                  className="px-3 py-1 text-sm text-primary-600 hover:bg-primary-50 rounded transition-colors"
+                >
+                  <Edit className="w-4 h-4" />
+                </button>
+                <button
+                  onClick={() => setDeleteDeal(deal)}
+                  className="px-3 py-1 text-sm text-red-600 hover:bg-red-50 rounded transition-colors"
+                >
+                  <Trash2 className="w-4 h-4" />
+                </button>
               </div>
             </div>
           </div>
@@ -141,6 +214,25 @@ function Deals() {
       <div className="text-sm text-gray-500 text-center">
         Showing {filteredDeals.length} of {deals.length} deals
       </div>
+
+      <DealModal
+        isOpen={showModal}
+        onClose={() => setShowModal(false)}
+        onSave={handleSave}
+        deal={selectedDeal}
+        companies={companies}
+        contacts={contacts}
+      />
+
+      <ConfirmDialog
+        isOpen={deleteDeal !== null}
+        onClose={() => setDeleteDeal(null)}
+        onConfirm={handleDelete}
+        title="Delete Deal"
+        message={`Are you sure you want to delete ${deleteDeal?.title}? This action cannot be undone.`}
+        confirmText="Delete"
+        type="danger"
+      />
     </div>
   );
 }

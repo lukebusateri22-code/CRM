@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { Building2, Users, DollarSign, Globe, Phone, Mail } from 'lucide-react';
+import { Building2, Users, DollarSign, Globe, Phone, Mail, Plus, Edit, Trash2 } from 'lucide-react';
 import { apiUrl } from '../config';
+import { useToast } from '../contexts/ToastContext';
+import CompanyModal from '../components/CompanyModal';
+import ConfirmDialog from '../components/ConfirmDialog';
 
 interface Company {
   id: number;
@@ -21,15 +24,52 @@ function Companies() {
   const [companies, setCompanies] = useState<Company[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
+  const [showModal, setShowModal] = useState(false);
+  const [selectedCompany, setSelectedCompany] = useState<Company | undefined>();
+  const [deleteCompany, setDeleteCompany] = useState<Company | null>(null);
+  const { showToast } = useToast();
 
   useEffect(() => {
-    fetch(apiUrl('/api/companies'))
-      .then(res => res.json())
-      .then(data => {
-        setCompanies(data);
-        setLoading(false);
-      });
+    loadData();
   }, []);
+
+  const loadData = async () => {
+    try {
+      const res = await fetch(apiUrl('/api/companies'));
+      const data = await res.json();
+      setCompanies(data);
+    } catch (error) {
+      showToast('error', 'Failed to load companies');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleAdd = () => {
+    setSelectedCompany(undefined);
+    setShowModal(true);
+  };
+
+  const handleEdit = (company: Company) => {
+    setSelectedCompany(company);
+    setShowModal(true);
+  };
+
+  const handleSave = () => {
+    loadData();
+    showToast('success', selectedCompany ? 'Company updated successfully' : 'Company created successfully');
+  };
+
+  const handleDelete = async () => {
+    if (!deleteCompany) return;
+    try {
+      await fetch(apiUrl(`/api/companies/${deleteCompany.id}`), { method: 'DELETE' });
+      loadData();
+      showToast('success', 'Company deleted successfully');
+    } catch (error) {
+      showToast('error', 'Failed to delete company');
+    }
+  };
 
   const filteredCompanies = companies.filter(company =>
     company.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -45,9 +85,16 @@ function Companies() {
     <div className="space-y-6">
       <div className="flex justify-between items-center">
         <div>
-          <h1 className="text-3xl font-bold text-gray-900">Companies</h1>
-          <p className="mt-2 text-sm text-gray-600">Track organizations and accounts</p>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Companies</h1>
+          <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">Track organizations and accounts</p>
         </div>
+        <button
+          onClick={handleAdd}
+          className="flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
+        >
+          <Plus className="w-5 h-5" />
+          Add Company
+        </button>
       </div>
 
       <div className="bg-white shadow rounded-lg">
@@ -100,7 +147,7 @@ function Companies() {
               </div>
 
               <div className="border-t border-gray-200 pt-4">
-                <div className="grid grid-cols-3 gap-4 text-center">
+                <div className="grid grid-cols-3 gap-4 text-center mb-4">
                   <div>
                     <div className="text-2xl font-bold text-gray-900">{company.contact_count}</div>
                     <div className="text-xs text-gray-500">Contacts</div>
@@ -114,6 +161,20 @@ function Companies() {
                     <div className="text-xs text-gray-500">Employees</div>
                   </div>
                 </div>
+                <div className="flex gap-2 justify-end">
+                  <button
+                    onClick={() => handleEdit(company)}
+                    className="px-3 py-1 text-sm text-primary-600 hover:bg-primary-50 rounded transition-colors"
+                  >
+                    <Edit className="w-4 h-4" />
+                  </button>
+                  <button
+                    onClick={() => setDeleteCompany(company)}
+                    className="px-3 py-1 text-sm text-red-600 hover:bg-red-50 rounded transition-colors"
+                  >
+                    <Trash2 className="w-4 h-4" />
+                  </button>
+                </div>
               </div>
             </div>
           ))}
@@ -122,6 +183,23 @@ function Companies() {
       <div className="text-sm text-gray-500 text-center">
         Showing {filteredCompanies.length} of {companies.length} companies
       </div>
+
+      <CompanyModal
+        isOpen={showModal}
+        onClose={() => setShowModal(false)}
+        onSave={handleSave}
+        company={selectedCompany}
+      />
+
+      <ConfirmDialog
+        isOpen={deleteCompany !== null}
+        onClose={() => setDeleteCompany(null)}
+        onConfirm={handleDelete}
+        title="Delete Company"
+        message={`Are you sure you want to delete ${deleteCompany?.name}? This action cannot be undone.`}
+        confirmText="Delete"
+        type="danger"
+      />
     </div>
   );
 }
