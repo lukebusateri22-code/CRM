@@ -67,6 +67,7 @@ function intelligentColumnMapping(headers) {
   const mapping = {};
   
   const patterns = {
+    full_name: ['full name', 'name', 'contact name', 'contact', 'person'],
     first_name: ['first name', 'firstname', 'fname', 'given name', 'forename'],
     last_name: ['last name', 'lastname', 'lname', 'surname', 'family name'],
     email: ['email', 'e-mail', 'email address', 'mail'],
