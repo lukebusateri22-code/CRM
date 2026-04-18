@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Production builds
+client/build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.production
+client/.env
+client/.env.local
+client/.env.production
+
+# Database
+server/crm.db
+server/crm.db-journal
+*.db
+*.db-journal
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+
+# Misc
+.cache/
