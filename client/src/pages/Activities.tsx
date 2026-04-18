@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Plus, Phone, Mail, Calendar as CalendarIcon, CheckSquare, Search, Filter, Clock, CheckCircle2 } from 'lucide-react';
+import { Plus, Phone, Mail, Calendar as CalendarIcon, CheckSquare, Search, Filter, Clock, CheckCircle2, FileText } from 'lucide-react';
 import { apiUrl } from '../config';
 import { format } from 'date-fns';
 
@@ -19,8 +19,8 @@ interface Activity {
 const activityIcons: { [key: string]: any } = {
   'Call': Phone,
   'Email': Mail,
-  'Meeting': Calendar,
-  'Task': CheckCircle,
+  'Meeting': CalendarIcon,
+  'Task': CheckCircle2,
   'Note': FileText,
 };
 
