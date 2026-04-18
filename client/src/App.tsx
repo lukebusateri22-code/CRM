@@ -25,6 +25,7 @@ import Reports from './pages/Reports';
 import AIAnalytics from './pages/AIAnalytics';
 import Login from './pages/Login';
 import ProtectedRoute from './components/ProtectedRoute';
+import AdminPanel from './pages/AdminPanel';
 
 function Navigation() {
   const location = useLocation();
@@ -47,6 +48,11 @@ function Navigation() {
     { path: '/activities', icon: Calendar, label: 'Activities' },
     { path: '/calendar', icon: Calendar, label: 'Calendar' },
   ];
+  
+  // Add admin panel for admin users
+  if (user?.role === 'admin' || user?.role === 'super_admin') {
+    navItems.unshift({ path: '/admin', icon: User, label: 'Admin Panel' });
+  }
 
   return (
     <nav className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 transition-colors">
@@ -143,6 +149,7 @@ function App() {
                     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
                       <Routes>
                         <Route path="/" element={<Dashboard />} />
+                        <Route path="/admin" element={<AdminPanel />} />
                         <Route path="/contacts" element={<Contacts />} />
                         <Route path="/contacts/:id" element={<ContactDetail />} />
                         <Route path="/companies" element={<Companies />} />
