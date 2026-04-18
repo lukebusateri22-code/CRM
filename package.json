@@ -2,12 +2,12 @@
   "name": "startup-crm",
   "version": "1.0.0",
   "description": "Modern CRM for startups",
-  "main": "server/index.js",
+  "main": "server/enhancedServer.js",
   "scripts": {
+    "start": "node server/enhancedServer.js",
     "server": "node server/enhancedServer.js",
     "client": "cd client && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "cd client && npm run build",
     "install-all": "npm install && cd client && npm install"
   },
   "dependencies": {
