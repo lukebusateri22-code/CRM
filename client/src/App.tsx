@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, Users, Building2, DollarSign, Calendar, Kanban, ListTodo, Brain, Zap, FileText } from 'lucide-react';
+import { LayoutDashboard, Users, Building2, DollarSign, Calendar, Kanban, ListTodo, Brain, Zap, FileText, LogOut, User } from 'lucide-react';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { ToastProvider } from './contexts/ToastContext';
+import { AuthProvider } from './contexts/AuthContext';
 import Dashboard from './pages/Dashboard';
 import Contacts from './pages/Contacts';
 import ContactDetail from './pages/ContactDetail';
@@ -22,9 +23,17 @@ import CommandPalette from './components/CommandPalette';
 import Workflows from './pages/Workflows';
 import Reports from './pages/Reports';
 import AIAnalytics from './pages/AIAnalytics';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
+import ProtectedRoute from './components/ProtectedRoute';
 
 function Navigation() {
   const location = useLocation();
+  const { user, logout, isAuthenticated } = require('./contexts/AuthContext').useAuth();
+  
+  if (!isAuthenticated) {
+    return null;
+  }
   
   const navItems = [
     { path: '/', icon: LayoutDashboard, label: 'Dashboard' },
@@ -72,9 +81,25 @@ function Navigation() {
               })}
             </div>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-4">
             <NotificationBell />
             <ThemeToggle />
+            <div className="flex items-center gap-2 border-l border-gray-200 dark:border-gray-700 pl-4">
+              <div className="flex items-center gap-2">
+                <User className="w-4 h-4 text-gray-500" />
+                <span className="text-sm text-gray-700 dark:text-gray-300">
+                  {user?.firstName} {user?.lastName}
+                </span>
+              </div>
+              <button
+                onClick={logout}
+                className="flex items-center gap-1 px-3 py-1.5 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md transition-colors"
+                title="Logout"
+              >
+                <LogOut className="w-4 h-4" />
+                Logout
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -107,31 +132,43 @@ function App() {
   return (
     <ThemeProvider>
       <ToastProvider>
-        <Router>
+        <AuthProvider>
+          <Router>
           <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors">
             <Navigation />
-            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-              <Routes>
-                <Route path="/" element={<Dashboard />} />
-                <Route path="/contacts" element={<Contacts />} />
-                <Route path="/contacts/:id" element={<ContactDetail />} />
-                <Route path="/companies" element={<Companies />} />
-                <Route path="/deals" element={<Deals />} />
-                <Route path="/deals/kanban" element={<DealsKanban />} />
-                <Route path="/tasks" element={<TaskBoard />} />
-                <Route path="/ai-analytics" element={<AIAnalytics />} />
-                <Route path="/workflows" element={<Workflows />} />
-                <Route path="/reports" element={<Reports />} />
-                <Route path="/activities" element={<Activities />} />
-                <Route path="/calendar" element={<CalendarView />} />
-              </Routes>
-            </main>
+            <Routes>
+              <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<Signup />} />
+              <Route path="/*" element={
+                <ProtectedRoute>
+                  <>
+                    <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                      <Routes>
+                        <Route path="/" element={<Dashboard />} />
+                        <Route path="/contacts" element={<Contacts />} />
+                        <Route path="/contacts/:id" element={<ContactDetail />} />
+                        <Route path="/companies" element={<Companies />} />
+                        <Route path="/deals" element={<Deals />} />
+                        <Route path="/deals/kanban" element={<DealsKanban />} />
+                        <Route path="/tasks" element={<TaskBoard />} />
+                        <Route path="/ai-analytics" element={<AIAnalytics />} />
+                        <Route path="/workflows" element={<Workflows />} />
+                        <Route path="/reports" element={<Reports />} />
+                        <Route path="/activities" element={<Activities />} />
+                        <Route path="/calendar" element={<CalendarView />} />
+                      </Routes>
+                    </main>
+                  </>
+                </ProtectedRoute>
+              } />
+            </Routes>
             {features.quickAdd && <FloatingQuickAdd />}
             {features.aiChatbot && <AIChatbot isEnabled={features.aiChatbot} />}
             <FeatureTogglePanel features={features} onToggle={handleFeatureToggle} />
             <CommandPalette />
           </div>
-        </Router>
+          </Router>
+        </AuthProvider>
       </ToastProvider>
     </ThemeProvider>
   );
