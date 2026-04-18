@@ -1,8 +1,8 @@
 {
   "name": "startup-crm",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Modern CRM for startups",
-  "main": "server/enhancedServer.js",
+  "main": "server/productionServer.js",
   "scripts": {
     "start": "node server/productionServer.js",
     "server": "node server/productionServer.js",
