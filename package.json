@@ -9,7 +9,8 @@
     "dev-old": "node server/enhancedServer.js",
     "client": "cd client && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "install-all": "npm install && cd client && npm install"
+    "install-all": "npm install && cd client && npm install",
+    "migrate": "node server/runMigrations.js"
   },
   "dependencies": {
     "express": "^4.18.2",
