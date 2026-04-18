@@ -75,13 +75,18 @@ router.post('/signup', async (req, res) => {
       });
     } catch (err) {
       await client.query('ROLLBACK');
+      console.error('Transaction error:', err);
       throw err;
     } finally {
       client.release();
     }
   } catch (error) {
     console.error('Signup error:', error);
-    res.status(500).json({ error: 'Failed to create account' });
+    console.error('Error details:', error.message, error.stack);
+    res.status(500).json({ 
+      error: 'Failed to create account',
+      details: process.env.NODE_ENV === 'development' ? error.message : undefined
+    });
   }
 });
 

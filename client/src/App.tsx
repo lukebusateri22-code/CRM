@@ -163,14 +163,14 @@ function App() {
                         <Route path="/calendar" element={<CalendarView />} />
                       </Routes>
                     </main>
+                    {features.quickAdd && <FloatingQuickAdd />}
+                    {features.aiChatbot && <AIChatbot isEnabled={features.aiChatbot} />}
+                    <FeatureTogglePanel features={features} onToggle={handleFeatureToggle} />
+                    <CommandPalette />
                   </>
                 </ProtectedRoute>
               } />
             </Routes>
-            {features.quickAdd && <FloatingQuickAdd />}
-            {features.aiChatbot && <AIChatbot isEnabled={features.aiChatbot} />}
-            <FeatureTogglePanel features={features} onToggle={handleFeatureToggle} />
-            <CommandPalette />
           </div>
           </Router>
         </AuthProvider>
