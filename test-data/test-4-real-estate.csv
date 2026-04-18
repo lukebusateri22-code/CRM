@@ -1,0 +1,5 @@
+Agent Name,Phone Number,Email,Property Address,Bedrooms,Bathrooms,Square Feet,Listing Price,Property Type,Status
+John Smith,555-1234,john@realty.com,123 Main Street,4,3,2500,$450000,House,Active
+Jane Doe,555-5678,jane@realty.com,456 Oak Avenue,3,2,1800,$325000,Condo,Pending
+Bob Johnson,555-9012,bob@realty.com,789 Pine Road,5,4,3200,$675000,House,Active
+Sarah Williams,555-3456,sarah@realty.com,321 Elm Street,2,2,1200,$225000,Apartment,Sold

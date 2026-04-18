@@ -1,0 +1,8 @@
+Name,Email,Phone,Company,Value
+"Unclosed Quote,test1@email.com,555-1111,Test Co,$1000
+Normal User,test2@email.com,555-2222,Normal Inc,$2,000.50
+"Extra""Quotes""User",test3@email.com,555-3333,"Company""Name",$3000
+Tab	User,test4@email.com,555-4444,Tab	Company,$4000
+Line
+Break User,test5@email.com,555-5555,Multi
+Line Co,$5000

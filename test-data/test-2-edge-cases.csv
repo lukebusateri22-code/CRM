@@ -1,0 +1,8 @@
+Contact Name,E-mail Address,Tel,Organisation,Notes
+"O'Brien, Patrick",patrick@email.com,(555) 123-4567,O'Reilly & Sons,"Has special chars: @#$%"
+José García,jose@email.com,555.123.4567,Café España,Unicode: ñ é ü
+"Smith, Jr., John",john.jr@email.com,+1-555-123-4567,"Tech, Inc.",Comma in company name
+,empty@email.com,555-0000,Empty Name Co,Missing first name
+Test User,,555-1111,No Email Inc,Missing email
+Another User,duplicate@email.com,555-2222,Dup Test,
+Another User,duplicate@email.com,555-2222,Dup Test,Exact duplicate row
