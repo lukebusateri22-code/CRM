@@ -29,11 +29,16 @@ import AdminPanel from './pages/AdminPanel';
 
 function Navigation() {
   const location = useLocation();
-  const { user, logout, isAuthenticated } = require('./contexts/AuthContext').useAuth();
+  // Temporarily disabled authentication
+  // const { user, logout, isAuthenticated } = require('./contexts/AuthContext').useAuth();
   
-  if (!isAuthenticated) {
-    return null;
-  }
+  // if (!isAuthenticated) {
+  //   return null;
+  // }
+  
+  const user = { firstName: 'Demo', lastName: 'User', role: 'admin' };
+  const logout = () => {};
+  const isAuthenticated = true;
   
   const navItems = [
     { path: '/', icon: LayoutDashboard, label: 'Dashboard' },
@@ -144,8 +149,7 @@ function App() {
             <Routes>
               <Route path="/login" element={<Login />} />
               <Route path="/*" element={
-                <ProtectedRoute>
-                  <>
+                <>
                     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
                       <Routes>
                         <Route path="/" element={<Dashboard />} />
@@ -168,7 +172,6 @@ function App() {
                     <FeatureTogglePanel features={features} onToggle={handleFeatureToggle} />
                     <CommandPalette />
                   </>
-                </ProtectedRoute>
               } />
             </Routes>
           </div>
