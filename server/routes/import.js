@@ -125,7 +125,13 @@ router.post('/preview', upload.single('file'), async (req, res) => {
     const records = parse(csvContent, {
       columns: true,
       skip_empty_lines: true,
-      trim: true
+      trim: true,
+      relax_quotes: true, // Handle inconsistent quotes
+      relax_column_count: true, // Handle varying column counts
+      skip_records_with_error: true, // Skip malformed rows instead of failing
+      quote: '"',
+      escape: '"',
+      bom: true // Handle byte order mark
     });
 
     if (records.length === 0) {
@@ -164,8 +170,22 @@ router.post('/contacts', upload.single('file'), async (req, res) => {
       columns: true,
       skip_empty_lines: true,
       trim: true,
+      relax_quotes: true, // Handle inconsistent quotes
       relax_column_count: true, // Handle inconsistent column counts
-      skip_records_with_error: true // Skip malformed rows
+      skip_records_with_error: true, // Skip malformed rows
+      quote: '"',
+      escape: '"',
+      bom: true, // Handle byte order mark
+      cast: false, // Don't auto-cast types
+      on_record: (record) => {
+        // Clean up any null bytes or weird characters
+        Object.keys(record).forEach(key => {
+          if (typeof record[key] === 'string') {
+            record[key] = record[key].replace(/\0/g, '').trim();
+          }
+        });
+        return record;
+      }
     });
 
     let successful = 0;

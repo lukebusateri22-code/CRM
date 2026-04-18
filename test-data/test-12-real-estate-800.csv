@@ -1,0 +1,801 @@
+Agent Name,Phone,Email,Property Address,City,State,Bedrooms,Bathrooms,Square Feet,Listing Price,Property Type,Status
+Jessica Smith,(250) 209-5225,jessica.smith@realty.com,"4202 Cedar Ln",Los Angeles,OH,2,1,1050,$103978,House,Sold
+Sarah Anderson,+1-845-213-5767,sarah.anderson@realty.com,"2609 Maple Dr",San Antonio,MI,5,1,3699,$578308,House,Off Market
+Daniel Brown,(267) 288-7289,daniel.brown@realty.com,"3100 Oak Ave",Houston,NC,1,3,3469,$849353,House,Pending
+Richard Robinson,(980) 507-4784,richard.robinson@realty.com,"2817 Lake Dr",San Diego,FL,3,1,3332,$533793,Villa,Sold
+Richard Moore,500.192.9122,richard.moore@realty.com,"3873 Maple Dr",Dallas,GA,1,1,3666,$555811,Villa,Pending
+Christopher Johnson,461-149-3191,christopher.johnson@realty.com,"3972 Oak Ave",San Antonio,MI,3,1,1896,$913721,Apartment,Active
+Daniel Lee,(299) 934-3200,daniel.lee@realty.com,"9565 Hill Rd",New York,IL,5,4,1400,$926174,Apartment,Active
+Joseph Gonzalez,+1-764-103-6895,joseph.gonzalez@realty.com,"5926 Pine Rd",San Antonio,CA,3,3,893,$136075,Townhouse,Active
+Mark Harris,119-603-6577,mark.harris@realty.com,"3115 Main St",San Diego,CA,3,2,825,$977067,House,Off Market
+Robert Wilson,(678) 492-4262,robert.wilson@realty.com,"8129 Elm St",San Francisco,CA,5,3,3732,$215390,House,Off Market
+Jessica Hernandez,580.542.7319,jessica.hernandez@realty.com,"5999 Cedar Ln",Los Angeles,PA,1,4,1791,$112091,Townhouse,Pending
+Mary Johnson,+1-647-482-8926,mary.johnson@realty.com,"4068 Maple Dr",Phoenix,CA,3,3,2619,$425607,Townhouse,Pending
+Jennifer Gonzalez,330-830-3555,jennifer.gonzalez@realty.com,"7416 River St",Houston,NY,3,4,1746,$556622,Townhouse,Sold
+Barbara Miller,+1-458-701-1632,barbara.miller@realty.com,"7090 Elm St",San Francisco,IL,5,2,3082,$616396,Villa,Sold
+Michael Johnson,382-494-4200,michael.johnson@realty.com,"2521 Park Ave",Philadelphia,NY,3,3,2893,$431850,House,Pending
+Jane Jones,(530) 853-5619,jane.jones@realty.com,"8903 Maple Dr",Houston,IL,5,4,2793,$354308,House,Pending
+Patricia Jones,(287) 776-9955,patricia.jones@realty.com,"4368 Lake Dr",Dallas,PA,2,2,2254,$859819,Condo,Active
+Matthew Brown,139-589-6239,matthew.brown@realty.com,"3195 Park Ave",San Antonio,CA,2,4,1809,$527188,Townhouse,Active
+Emily Jones,+1-691-672-6837,emily.jones@realty.com,"1352 Cedar Ln",Houston,IL,1,4,3360,$404320,Townhouse,Pending
+Elizabeth Jackson,+1-950-400-5349,elizabeth.jackson@realty.com,"8918 River St",Philadelphia,OH,3,2,3453,$246583,Apartment,Active
+Susan Lee,184.875.5935,susan.lee@realty.com,"8684 Elm St",Los Angeles,NY,2,2,2548,$252567,Townhouse,Sold
+Nancy Gonzalez,790.922.6564,nancy.gonzalez@realty.com,"1824 Hill Rd",Houston,NY,3,2,3117,$223639,Apartment,Pending
+Betty Lopez,837.517.7070,betty.lopez@realty.com,"5687 Cedar Ln",San Diego,CA,5,4,3207,$865537,Townhouse,Off Market
+John Lopez,381-971-3105,john.lopez@realty.com,"6245 Cedar Ln",Los Angeles,OH,1,2,1897,$585716,Townhouse,Off Market
+Robert Wilson,+1-678-312-7162,robert.wilson@realty.com,"4479 Oak Ave",Phoenix,FL,3,2,921,$180195,Villa,Pending
+Karen Gonzalez,+1-347-261-4585,karen.gonzalez@realty.com,"1288 Maple Dr",Philadelphia,OH,1,4,1426,$609485,Apartment,Off Market
+Jane Rodriguez,855-790-1176,jane.rodriguez@realty.com,"6861 River St",Houston,GA,1,4,1430,$976351,House,Off Market
+Matthew Rodriguez,(859) 827-1492,matthew.rodriguez@realty.com,"4114 Maple Dr",New York,NC,4,2,2766,$881867,Townhouse,Sold
+Elizabeth Martin,627-167-5507,elizabeth.martin@realty.com,"8033 Cedar Ln",Philadelphia,NY,5,2,2016,$494181,House,Off Market
+Anthony Martinez,338-821-1958,anthony.martinez@realty.com,"4442 Elm St",Dallas,IL,2,3,2103,$739258,Apartment,Active
+David Thompson,475.778.9676,david.thompson@realty.com,"7912 Pine Rd",San Francisco,PA,1,1,3482,$800633,Apartment,Sold
+Emily Hernandez,+1-742-202-5591,emily.hernandez@realty.com,"4120 Main St",Chicago,TX,4,4,3441,$973197,Apartment,Sold
+Thomas Jones,979-345-3058,thomas.jones@realty.com,"8084 Lake Dr",Philadelphia,CA,4,4,2403,$999978,Condo,Active
+Karen Miller,906-928-4134,karen.miller@realty.com,"5338 Park Ave",Philadelphia,OH,1,4,3733,$729105,Villa,Off Market
+Emily Taylor,762.650.1313,emily.taylor@realty.com,"5348 Oak Ave",Philadelphia,PA,5,4,985,$219364,House,Pending
+Charles Sanchez,(136) 580-5852,charles.sanchez@realty.com,"5027 Hill Rd",Chicago,PA,3,1,2017,$441772,Villa,Off Market
+Elizabeth Wilson,(813) 613-1739,elizabeth.wilson@realty.com,"8582 Lake Dr",Philadelphia,GA,2,3,1567,$851056,Villa,Sold
+Daniel Sanchez,102-948-3392,daniel.sanchez@realty.com,"1771 Cedar Ln",San Diego,NC,4,4,866,$194715,Apartment,Off Market
+Richard Davis,+1-281-511-9551,richard.davis@realty.com,"3931 Cedar Ln",San Francisco,NC,5,2,2666,$126070,Townhouse,Pending
+Sarah Lee,+1-985-999-7931,sarah.lee@realty.com,"3924 Oak Ave",San Antonio,NC,1,1,2307,$764021,House,Active
+Richard Rodriguez,531-988-6204,richard.rodriguez@realty.com,"4460 Main St",San Diego,CA,5,4,898,$271549,Apartment,Off Market
+Mary Rodriguez,+1-613-565-9798,mary.rodriguez@realty.com,"6376 Pine Rd",Dallas,IL,3,4,3348,$183695,House,Pending
+Jane Perez,(494) 580-5009,jane.perez@realty.com,"9130 River St",Chicago,PA,5,3,2058,$925804,Condo,Pending
+Matthew Ramirez,419.808.4031,matthew.ramirez@realty.com,"4451 Elm St",Dallas,IL,3,2,3765,$971109,Villa,Pending
+Linda Brown,+1-723-997-5443,linda.brown@realty.com,"6290 Cedar Ln",Los Angeles,CA,2,1,3771,$187218,Apartment,Active
+Jennifer Jackson,(280) 486-7936,jennifer.jackson@realty.com,"9163 Hill Rd",Dallas,CA,3,2,3644,$976131,House,Off Market
+James Gonzalez,899-321-3693,james.gonzalez@realty.com,"5747 Hill Rd",Chicago,PA,5,3,2128,$433594,Condo,Off Market
+David Robinson,924.284.4302,david.robinson@realty.com,"7900 Hill Rd",Los Angeles,NY,2,3,2900,$382459,House,Pending
+Sarah Hernandez,624-366-7609,sarah.hernandez@realty.com,"7100 Elm St",San Antonio,NC,3,4,1275,$469244,Townhouse,Active
+Nancy Williams,+1-467-305-3735,nancy.williams@realty.com,"3454 Pine Rd",Philadelphia,NY,4,1,2358,$926042,House,Off Market
+Elizabeth Miller,+1-306-164-2642,elizabeth.miller@realty.com,"9326 Pine Rd",Philadelphia,FL,3,2,1199,$167946,Apartment,Off Market
+Robert Moore,853.887.1485,robert.moore@realty.com,"8367 Elm St",Philadelphia,GA,3,2,2933,$273493,Condo,Active
+Robert Martinez,(775) 260-3157,robert.martinez@realty.com,"3480 Oak Ave",Houston,PA,5,2,3302,$779286,House,Off Market
+Jane Garcia,(537) 478-7284,jane.garcia@realty.com,"9936 River St",Phoenix,MI,5,1,2172,$963437,Apartment,Pending
+Thomas Williams,(464) 225-5719,thomas.williams@realty.com,"6373 Hill Rd",Houston,NY,1,3,2147,$130273,Townhouse,Active
+Patricia Clark,(795) 764-5897,patricia.clark@realty.com,"1857 Oak Ave",Houston,NY,4,2,2519,$944457,Condo,Active
+Jane Smith,707-280-9700,jane.smith@realty.com,"3042 River St",San Francisco,NC,3,4,1281,$644628,Townhouse,Active
+Sarah Smith,(616) 341-1708,sarah.smith@realty.com,"3266 Oak Ave",San Francisco,GA,3,1,2957,$973314,House,Sold
+John Clark,(884) 998-7564,john.clark@realty.com,"6794 Elm St",Houston,TX,1,2,3642,$258467,Villa,Sold
+Mark Miller,368-739-5140,mark.miller@realty.com,"4767 Maple Dr",Houston,OH,4,2,1044,$767469,Apartment,Off Market
+William Jackson,512-785-7880,william.jackson@realty.com,"1344 Lake Dr",Los Angeles,MI,5,3,2852,$724239,Condo,Off Market
+John Thompson,686.470.3945,john.thompson@realty.com,"1776 Lake Dr",Dallas,CA,2,1,3727,$998928,Townhouse,Active
+Karen Martinez,+1-831-536-4226,karen.martinez@realty.com,"1239 Main St",Philadelphia,CA,3,4,1203,$680513,Townhouse,Off Market
+Christopher Lewis,+1-709-497-7622,christopher.lewis@realty.com,"4400 Pine Rd",Houston,NC,2,1,1029,$232817,Villa,Pending
+Joseph Ramirez,644-798-3765,joseph.ramirez@realty.com,"3285 Park Ave",San Diego,CA,3,2,3281,$144858,Townhouse,Pending
+Sarah Moore,367-836-4686,sarah.moore@realty.com,"4312 Hill Rd",New York,NC,2,4,900,$818657,Villa,Active
+Mark White,899.515.9898,mark.white@realty.com,"5435 Pine Rd",Los Angeles,NC,5,1,3020,$971834,Townhouse,Sold
+Lisa Davis,234-743-2939,lisa.davis@realty.com,"5085 Hill Rd",San Francisco,MI,4,1,3742,$122330,Apartment,Pending
+Karen Sanchez,(663) 992-2071,karen.sanchez@realty.com,"1829 Elm St",San Antonio,PA,3,3,3771,$584424,House,Pending
+Jessica Ramirez,(244) 550-8934,jessica.ramirez@realty.com,"5624 River St",San Antonio,NC,5,2,2818,$864557,Townhouse,Active
+Sarah Davis,386.995.9646,sarah.davis@realty.com,"1688 River St",San Diego,PA,2,4,3260,$568416,Townhouse,Active
+Daniel White,+1-330-133-8643,daniel.white@realty.com,"3353 Lake Dr",New York,PA,1,2,2332,$856811,Apartment,Active
+Karen Taylor,734.914.2588,karen.taylor@realty.com,"3605 Elm St",Chicago,NC,1,1,879,$861491,Townhouse,Sold
+Susan Robinson,813.123.5260,susan.robinson@realty.com,"5955 Park Ave",New York,CA,3,2,3581,$662512,Townhouse,Pending
+Anthony Jones,376.745.5493,anthony.jones@realty.com,"1539 Main St",San Francisco,PA,4,2,1160,$410340,Apartment,Off Market
+Barbara Jackson,701.471.8523,barbara.jackson@realty.com,"7202 Cedar Ln",San Diego,NY,4,1,1948,$108730,Apartment,Sold
+Jennifer Smith,+1-562-158-8553,jennifer.smith@realty.com,"5471 Lake Dr",Houston,NC,4,2,1373,$238024,House,Off Market
+Lisa Jones,923.889.7690,lisa.jones@realty.com,"4926 Elm St",Phoenix,FL,4,1,2671,$848311,Apartment,Active
+Mary Miller,191-215-3828,mary.miller@realty.com,"9451 Main St",Los Angeles,MI,3,1,2035,$494407,Villa,Sold
+Patricia Taylor,(561) 333-1769,patricia.taylor@realty.com,"1124 Main St",Phoenix,IL,2,4,2461,$278361,Condo,Sold
+Thomas Wilson,837-932-7786,thomas.wilson@realty.com,"3646 Cedar Ln",Chicago,MI,5,3,3571,$456731,Apartment,Pending
+Daniel Sanchez,872.228.4941,daniel.sanchez@realty.com,"7869 Hill Rd",San Diego,TX,5,4,1938,$626650,Condo,Pending
+James Clark,(511) 903-9676,james.clark@realty.com,"2435 Oak Ave",Dallas,NY,5,4,2808,$487492,Condo,Pending
+Lisa Taylor,(978) 433-2488,lisa.taylor@realty.com,"8449 Main St",New York,FL,3,4,2384,$500081,Townhouse,Sold
+Mark Robinson,(422) 971-7348,mark.robinson@realty.com,"9081 Park Ave",Los Angeles,PA,5,4,1190,$807653,House,Sold
+James Perez,173-141-7473,james.perez@realty.com,"8827 Maple Dr",Los Angeles,PA,5,2,2788,$130125,Apartment,Sold
+Jessica Anderson,157.661.2547,jessica.anderson@realty.com,"6799 Lake Dr",Philadelphia,TX,3,2,1090,$829666,Townhouse,Pending
+Jane Robinson,+1-111-465-6585,jane.robinson@realty.com,"1038 Park Ave",Houston,FL,1,3,3555,$131256,House,Active
+Lisa Robinson,590.889.6243,lisa.robinson@realty.com,"9993 Elm St",Chicago,NC,2,2,1872,$445188,House,Off Market
+Richard Williams,680-619-4590,richard.williams@realty.com,"1664 Hill Rd",Houston,FL,3,4,3593,$255626,Villa,Pending
+Richard Hernandez,593-392-2407,richard.hernandez@realty.com,"3614 Park Ave",Philadelphia,OH,4,3,2237,$996071,Condo,Active
+Lisa Robinson,916-504-4382,lisa.robinson@realty.com,"8551 Main St",New York,PA,5,2,1571,$916984,Villa,Off Market
+Emily Lewis,(377) 980-2395,emily.lewis@realty.com,"3588 Main St",Los Angeles,FL,3,3,2255,$969134,Villa,Off Market
+Linda Perez,229-720-7852,linda.perez@realty.com,"6200 Hill Rd",Phoenix,IL,1,4,2165,$759844,House,Off Market
+Thomas Johnson,883-810-5830,thomas.johnson@realty.com,"3737 River St",San Antonio,NY,5,1,1125,$834786,House,Sold
+Linda Lee,(233) 839-5058,linda.lee@realty.com,"2105 Maple Dr",Houston,GA,3,3,1310,$412940,Villa,Sold
+Betty Lopez,163-509-1057,betty.lopez@realty.com,"4228 Main St",Houston,FL,1,3,878,$994805,Condo,Off Market
+David Lopez,(847) 757-7553,david.lopez@realty.com,"6631 Hill Rd",San Diego,FL,3,4,2082,$455403,Townhouse,Pending
+Mark Lee,633-654-8577,mark.lee@realty.com,"1076 River St",San Francisco,OH,3,4,2349,$401305,Townhouse,Pending
+Barbara Brown,+1-735-177-3094,barbara.brown@realty.com,"6040 Elm St",Houston,MI,5,2,809,$750905,Condo,Sold
+Richard Hernandez,115.794.1788,richard.hernandez@realty.com,"1136 Cedar Ln",Chicago,NY,4,3,2508,$669000,Apartment,Off Market
+Michael Martin,+1-493-709-8081,michael.martin@realty.com,"4112 Maple Dr",San Antonio,NC,4,4,1014,$158784,Condo,Pending
+Elizabeth Martinez,(847) 997-6759,elizabeth.martinez@realty.com,"2072 Lake Dr",Philadelphia,PA,5,3,2224,$441748,Villa,Sold
+Jane Jones,908-882-5800,jane.jones@realty.com,"8835 Maple Dr",Houston,OH,1,1,1619,$640607,Apartment,Active
+Jessica Wilson,743-518-2183,jessica.wilson@realty.com,"4768 Maple Dr",Houston,TX,5,3,2521,$307784,Townhouse,Off Market
+John Garcia,888.209.7055,john.garcia@realty.com,"7686 Maple Dr",Los Angeles,TX,1,1,1514,$395809,Villa,Active
+Karen White,214.327.3104,karen.white@realty.com,"6178 River St",Houston,FL,4,3,2050,$404463,House,Off Market
+Sarah Miller,135.688.7584,sarah.miller@realty.com,"1390 River St",San Diego,PA,4,4,3101,$502367,House,Pending
+Jessica Lee,159-991-4361,jessica.lee@realty.com,"4248 Maple Dr",Dallas,GA,3,1,2516,$735468,Villa,Off Market
+Christopher Williams,+1-218-832-4468,christopher.williams@realty.com,"4772 Elm St",San Antonio,NY,3,4,1565,$337033,House,Off Market
+John Perez,+1-861-297-5690,john.perez@realty.com,"7871 Cedar Ln",Houston,NY,2,1,2615,$559256,Apartment,Sold
+John Robinson,+1-378-421-2756,john.robinson@realty.com,"4225 Cedar Ln",Chicago,MI,1,2,1213,$932265,Villa,Off Market
+William Sanchez,472-306-5648,william.sanchez@realty.com,"6638 Main St",San Antonio,PA,3,4,1585,$791325,Townhouse,Off Market
+Jennifer Garcia,+1-944-956-9667,jennifer.garcia@realty.com,"8336 Maple Dr",Phoenix,NC,3,4,3198,$142580,Condo,Pending
+Thomas White,338.270.7449,thomas.white@realty.com,"1684 Park Ave",San Diego,PA,5,1,902,$705992,Townhouse,Pending
+Joseph Robinson,+1-990-416-2016,joseph.robinson@realty.com,"7447 Park Ave",San Antonio,NC,4,3,2240,$106669,Condo,Pending
+David Miller,(401) 762-2711,david.miller@realty.com,"9409 Elm St",San Diego,FL,3,3,1165,$264509,Apartment,Off Market
+William Lopez,+1-246-246-2753,william.lopez@realty.com,"4119 Pine Rd",New York,OH,4,1,1849,$322546,Apartment,Pending
+Richard Lopez,(589) 680-6578,richard.lopez@realty.com,"9160 Elm St",Houston,PA,2,4,1774,$456826,Apartment,Sold
+Mary Gonzalez,(384) 902-9160,mary.gonzalez@realty.com,"8166 Pine Rd",San Francisco,MI,2,1,2184,$649389,Condo,Off Market
+Jennifer Davis,(721) 291-8512,jennifer.davis@realty.com,"6367 Hill Rd",San Francisco,GA,1,2,2419,$102598,Townhouse,Pending
+Karen Lee,(592) 256-4292,karen.lee@realty.com,"2288 Maple Dr",San Francisco,FL,4,1,3744,$241376,Condo,Off Market
+David Thompson,104-683-8492,david.thompson@realty.com,"5904 Pine Rd",Chicago,CA,5,1,2129,$611867,Townhouse,Sold
+Lisa Taylor,+1-749-314-9187,lisa.taylor@realty.com,"6192 Hill Rd",Houston,PA,2,2,1230,$387581,Apartment,Active
+William Thompson,+1-604-284-1848,william.thompson@realty.com,"7766 Oak Ave",San Antonio,CA,5,1,2982,$536603,Townhouse,Pending
+Jennifer Gonzalez,832-107-5660,jennifer.gonzalez@realty.com,"7719 Hill Rd",Los Angeles,TX,4,4,1767,$198341,House,Sold
+David Garcia,(279) 833-9178,david.garcia@realty.com,"4017 Pine Rd",San Francisco,IL,2,3,1480,$886458,Apartment,Pending
+Thomas Thompson,358.677.4385,thomas.thompson@realty.com,"7636 Elm St",Chicago,TX,4,2,1865,$793996,Villa,Off Market
+David Lee,315-385-4272,david.lee@realty.com,"4941 Park Ave",Houston,IL,4,1,952,$553881,Condo,Pending
+Jennifer Jackson,(624) 271-7322,jennifer.jackson@realty.com,"1413 Hill Rd",San Francisco,FL,1,3,1837,$105397,Apartment,Active
+Mark Martin,+1-568-532-5209,mark.martin@realty.com,"6623 Main St",San Antonio,TX,1,3,2101,$202789,Condo,Sold
+David Robinson,296-238-3538,david.robinson@realty.com,"3179 Oak Ave",Chicago,NY,3,3,901,$317956,Condo,Sold
+Betty Martinez,890.860.5199,betty.martinez@realty.com,"8692 Hill Rd",Houston,OH,4,3,1130,$694729,Villa,Off Market
+Emily Ramirez,(537) 689-7831,emily.ramirez@realty.com,"6187 River St",Philadelphia,OH,4,3,2467,$349537,Townhouse,Off Market
+James Davis,203-115-3205,james.davis@realty.com,"1916 Cedar Ln",Phoenix,MI,5,3,1491,$251375,Condo,Active
+Robert Wilson,+1-120-216-4008,robert.wilson@realty.com,"6114 Main St",Houston,NC,3,2,2950,$988138,Villa,Active
+Daniel Robinson,466.234.9332,daniel.robinson@realty.com,"5798 Pine Rd",San Antonio,GA,4,4,3159,$431339,Apartment,Active
+Emily Miller,(194) 368-4598,emily.miller@realty.com,"1481 Cedar Ln",Chicago,NY,4,4,3699,$622561,Condo,Sold
+Susan Gonzalez,391.939.2201,susan.gonzalez@realty.com,"4050 Main St",Dallas,GA,5,4,2923,$661494,Condo,Active
+Jennifer Miller,153-742-9019,jennifer.miller@realty.com,"9782 Pine Rd",Dallas,CA,3,2,3023,$220717,House,Off Market
+Mary Davis,+1-763-767-7442,mary.davis@realty.com,"6607 Maple Dr",Houston,GA,5,2,3161,$530415,Apartment,Active
+Robert Taylor,149-697-3309,robert.taylor@realty.com,"4075 Hill Rd",Los Angeles,PA,3,1,2385,$819002,Apartment,Pending
+Betty Smith,382.357.3969,betty.smith@realty.com,"4491 Main St",San Francisco,IL,4,1,888,$768053,Townhouse,Active
+Patricia White,+1-714-939-8233,patricia.white@realty.com,"6004 Maple Dr",Dallas,PA,5,2,2240,$558272,Condo,Active
+Betty Taylor,189-571-4678,betty.taylor@realty.com,"1301 Cedar Ln",Dallas,OH,1,3,2076,$749986,Townhouse,Off Market
+David Clark,(841) 925-2067,david.clark@realty.com,"3236 Oak Ave",San Antonio,PA,3,2,2535,$613491,Townhouse,Active
+Charles Perez,420-631-6531,charles.perez@realty.com,"3300 Cedar Ln",New York,CA,2,4,2447,$325606,House,Active
+Nancy Thompson,(829) 708-2348,nancy.thompson@realty.com,"8273 River St",New York,NC,2,3,1910,$422014,House,Pending
+Linda Williams,(746) 647-6107,linda.williams@realty.com,"2394 Maple Dr",San Diego,FL,1,3,3388,$179553,Townhouse,Active
+Christopher Lewis,134.785.4309,christopher.lewis@realty.com,"4148 Cedar Ln",Los Angeles,MI,4,3,1040,$989543,Apartment,Sold
+Mary Lewis,459-573-4787,mary.lewis@realty.com,"2013 River St",San Francisco,MI,5,3,1991,$678636,Apartment,Off Market
+Richard Martinez,(213) 168-3920,richard.martinez@realty.com,"6632 Maple Dr",San Diego,MI,1,4,1562,$933186,Villa,Sold
+Anthony Lee,(800) 992-2730,anthony.lee@realty.com,"6169 Pine Rd",Dallas,IL,5,3,1053,$623879,Townhouse,Active
+John Robinson,(560) 410-6354,john.robinson@realty.com,"9645 Pine Rd",New York,FL,3,3,3131,$798479,Townhouse,Pending
+Christopher Johnson,293.648.4510,christopher.johnson@realty.com,"2894 Hill Rd",Phoenix,IL,3,3,3012,$985070,Townhouse,Pending
+John Taylor,692.955.3817,john.taylor@realty.com,"2958 River St",New York,GA,2,4,3566,$591716,Townhouse,Off Market
+Michael Ramirez,167-902-5354,michael.ramirez@realty.com,"7692 Hill Rd",Houston,OH,2,3,1648,$907650,Apartment,Sold
+Betty Robinson,346-984-8608,betty.robinson@realty.com,"8253 Oak Ave",San Diego,FL,4,1,1077,$136450,House,Sold
+Richard Jackson,495-969-8304,richard.jackson@realty.com,"3171 Hill Rd",New York,TX,5,3,1218,$819573,Condo,Off Market
+Michael Brown,864.883.2615,michael.brown@realty.com,"5792 Cedar Ln",Houston,NC,1,3,3044,$890514,Townhouse,Active
+David Ramirez,(342) 671-7848,david.ramirez@realty.com,"1277 Park Ave",Dallas,CA,1,2,2950,$666835,Townhouse,Pending
+John Robinson,+1-596-418-3459,john.robinson@realty.com,"8569 Cedar Ln",Houston,NC,2,1,2204,$477916,Townhouse,Pending
+Christopher Harris,+1-899-600-3022,christopher.harris@realty.com,"7406 Lake Dr",Houston,MI,4,2,1388,$902097,Townhouse,Active
+Nancy Lewis,493.833.4346,nancy.lewis@realty.com,"5565 Hill Rd",San Francisco,PA,1,1,1220,$100344,Condo,Off Market
+Joseph Garcia,+1-763-651-6520,joseph.garcia@realty.com,"6885 Lake Dr",Chicago,MI,5,4,2245,$390692,Villa,Off Market
+Betty Jones,424-286-8727,betty.jones@realty.com,"2324 Maple Dr",Houston,NY,5,4,2664,$223021,Townhouse,Off Market
+Sarah Thomas,(423) 374-5856,sarah.thomas@realty.com,"7900 Maple Dr",New York,MI,5,1,2834,$407230,Townhouse,Off Market
+Jane Smith,+1-180-258-3160,jane.smith@realty.com,"7213 River St",Phoenix,TX,4,1,2690,$505022,Townhouse,Sold
+Jennifer Thomas,+1-347-861-1873,jennifer.thomas@realty.com,"1394 Lake Dr",Phoenix,FL,1,1,3372,$135424,Townhouse,Sold
+Matthew Lewis,991-813-4669,matthew.lewis@realty.com,"4430 Oak Ave",Chicago,NY,2,1,3601,$216919,Apartment,Pending
+Daniel Perez,474-566-7635,daniel.perez@realty.com,"1461 River St",Dallas,GA,3,1,2048,$366723,Apartment,Pending
+Charles Martinez,129-847-5068,charles.martinez@realty.com,"6106 Maple Dr",Houston,FL,2,2,1645,$890606,Villa,Sold
+Jennifer Ramirez,(631) 972-8436,jennifer.ramirez@realty.com,"3520 Lake Dr",Los Angeles,MI,4,4,3098,$567799,Apartment,Off Market
+Emily Thomas,(453) 889-9339,emily.thomas@realty.com,"3915 Oak Ave",Chicago,MI,4,2,3723,$480825,Villa,Off Market
+Jessica Lewis,701.881.9454,jessica.lewis@realty.com,"1748 Oak Ave",San Diego,PA,5,3,1758,$760003,Villa,Off Market
+Christopher Sanchez,(191) 346-8032,christopher.sanchez@realty.com,"2526 Lake Dr",Houston,CA,5,1,1845,$809792,Villa,Pending
+Richard Miller,(419) 224-5657,richard.miller@realty.com,"6555 Oak Ave",Dallas,GA,4,4,2970,$813081,Apartment,Sold
+James Robinson,823.966.3389,james.robinson@realty.com,"4266 Lake Dr",San Antonio,FL,2,3,3214,$283129,Condo,Active
+Susan Brown,(844) 630-3939,susan.brown@realty.com,"2413 Maple Dr",Los Angeles,MI,5,1,937,$994198,Apartment,Pending
+Lisa Jones,+1-610-904-6856,lisa.jones@realty.com,"4308 Pine Rd",San Diego,MI,5,4,3418,$607274,House,Off Market
+Michael Sanchez,729-908-3408,michael.sanchez@realty.com,"6776 Park Ave",San Francisco,PA,5,1,2028,$703797,Condo,Active
+Nancy Hernandez,(969) 219-6048,nancy.hernandez@realty.com,"4471 Park Ave",Los Angeles,MI,5,4,2267,$182071,Villa,Pending
+Jane Smith,710.922.5282,jane.smith@realty.com,"2721 Park Ave",Phoenix,FL,5,4,3031,$463208,Apartment,Pending
+Jane Jones,985-831-6780,jane.jones@realty.com,"5134 Lake Dr",Chicago,GA,1,4,3657,$352264,House,Sold
+James Robinson,(704) 255-1419,james.robinson@realty.com,"6284 Oak Ave",Houston,CA,3,3,3781,$720193,Apartment,Pending
+Patricia Smith,+1-457-677-8650,patricia.smith@realty.com,"2854 Hill Rd",San Francisco,IL,5,3,1222,$290134,Apartment,Sold
+David Rodriguez,544-519-4499,david.rodriguez@realty.com,"2495 Elm St",New York,OH,2,3,3345,$500434,House,Pending
+Jane Thompson,+1-752-901-1462,jane.thompson@realty.com,"5978 Pine Rd",Houston,FL,2,2,2075,$631212,Condo,Active
+Susan White,(483) 996-2851,susan.white@realty.com,"9992 Oak Ave",Philadelphia,CA,2,4,1988,$565386,Apartment,Off Market
+Robert Lewis,907-783-3939,robert.lewis@realty.com,"7570 Cedar Ln",Philadelphia,IL,1,4,2684,$908808,House,Active
+Jane Rodriguez,347.801.1795,jane.rodriguez@realty.com,"9127 River St",Los Angeles,CA,4,2,3106,$487699,Villa,Off Market
+Charles Davis,505.753.7045,charles.davis@realty.com,"9165 Pine Rd",New York,NC,2,3,3143,$109849,Apartment,Active
+Barbara Garcia,420.550.4342,barbara.garcia@realty.com,"9634 Main St",Chicago,OH,3,2,1449,$340327,Villa,Sold
+Betty Taylor,+1-903-202-7930,betty.taylor@realty.com,"5791 Hill Rd",New York,PA,1,1,2549,$192780,Condo,Pending
+Jessica Jackson,658.815.4995,jessica.jackson@realty.com,"8699 Main St",New York,NY,4,1,3022,$324399,Townhouse,Pending
+Mark Jackson,(907) 347-9048,mark.jackson@realty.com,"1963 Oak Ave",Phoenix,OH,4,3,1882,$963381,Condo,Active
+John Johnson,(822) 826-4588,john.johnson@realty.com,"7366 Park Ave",San Antonio,GA,2,1,1327,$483238,Apartment,Pending
+Anthony Garcia,309.344.9145,anthony.garcia@realty.com,"5679 Pine Rd",New York,NY,5,3,1509,$609700,Apartment,Active
+Mary Robinson,299.620.3481,mary.robinson@realty.com,"1287 Cedar Ln",San Diego,GA,2,2,3758,$648835,House,Pending
+Karen Jackson,(770) 601-3171,karen.jackson@realty.com,"3896 Lake Dr",Los Angeles,GA,1,3,1972,$894845,Condo,Active
+Nancy Johnson,+1-912-508-9742,nancy.johnson@realty.com,"7791 Lake Dr",Phoenix,TX,4,1,3765,$891639,House,Active
+Jessica Robinson,(486) 571-1886,jessica.robinson@realty.com,"7591 Hill Rd",Dallas,MI,2,1,3488,$277795,Townhouse,Off Market
+Barbara Gonzalez,+1-522-354-6669,barbara.gonzalez@realty.com,"2519 Cedar Ln",Dallas,MI,4,1,1246,$202798,Villa,Sold
+Patricia Williams,792-559-6116,patricia.williams@realty.com,"1300 Elm St",San Diego,PA,5,4,3673,$778339,Townhouse,Active
+Mary Brown,281.749.1270,mary.brown@realty.com,"5567 Elm St",San Francisco,PA,5,4,3706,$354595,Townhouse,Active
+Jennifer Lewis,698-718-6347,jennifer.lewis@realty.com,"8659 Elm St",San Diego,FL,1,3,1918,$892197,Apartment,Off Market
+Matthew White,564.657.3661,matthew.white@realty.com,"8088 Main St",Chicago,OH,4,4,1210,$401384,House,Pending
+Mark Sanchez,(662) 721-6989,mark.sanchez@realty.com,"6094 Main St",San Francisco,OH,2,4,2100,$109182,Villa,Pending
+Betty Harris,706-712-6030,betty.harris@realty.com,"5544 Maple Dr",San Diego,NY,5,1,1193,$765518,Apartment,Pending
+Patricia Taylor,+1-188-971-4305,patricia.taylor@realty.com,"2117 Lake Dr",San Diego,NY,1,3,2572,$207352,House,Sold
+Elizabeth Thomas,697.676.4480,elizabeth.thomas@realty.com,"7806 Park Ave",New York,GA,3,2,1927,$458530,Villa,Sold
+James Rodriguez,+1-859-282-4652,james.rodriguez@realty.com,"6349 Pine Rd",Philadelphia,NC,1,3,2505,$608320,House,Off Market
+Thomas Jackson,472-702-4970,thomas.jackson@realty.com,"6495 Pine Rd",Phoenix,NY,3,3,2607,$909940,Condo,Off Market
+Lisa Miller,666.255.6259,lisa.miller@realty.com,"3188 Elm St",Los Angeles,MI,3,1,2699,$243800,House,Off Market
+Susan Hernandez,289.723.3450,susan.hernandez@realty.com,"3279 Lake Dr",Houston,PA,5,4,3591,$102989,House,Off Market
+James Anderson,+1-322-465-8686,james.anderson@realty.com,"2132 Cedar Ln",Dallas,PA,2,4,2851,$154610,Condo,Off Market
+Anthony Robinson,352.645.4508,anthony.robinson@realty.com,"1061 Cedar Ln",San Diego,GA,2,2,3578,$905756,Villa,Sold
+Jennifer Smith,(707) 229-4349,jennifer.smith@realty.com,"6503 Pine Rd",Phoenix,PA,1,1,2058,$977048,Apartment,Active
+Charles Rodriguez,(338) 970-3123,charles.rodriguez@realty.com,"7678 Oak Ave",Dallas,CA,5,3,1772,$288362,House,Pending
+Jane Hernandez,+1-659-525-7158,jane.hernandez@realty.com,"2516 Hill Rd",New York,OH,2,4,1009,$624393,Condo,Pending
+Mark Sanchez,+1-512-668-2572,mark.sanchez@realty.com,"6130 Elm St",Houston,NC,5,3,900,$623267,Apartment,Active
+Charles Jackson,292-690-1757,charles.jackson@realty.com,"1433 Park Ave",Chicago,CA,1,3,2958,$690958,Villa,Active
+Richard Gonzalez,970-358-9496,richard.gonzalez@realty.com,"6857 Pine Rd",Los Angeles,OH,1,4,3392,$263046,House,Off Market
+Linda Clark,(783) 322-2068,linda.clark@realty.com,"7343 River St",Phoenix,NY,4,2,2424,$555700,Condo,Off Market
+Daniel Thomas,+1-383-406-9370,daniel.thomas@realty.com,"8058 Cedar Ln",Phoenix,TX,1,4,2885,$670293,House,Sold
+Matthew Harris,824.168.2856,matthew.harris@realty.com,"4498 Hill Rd",Chicago,NC,3,1,3701,$670830,Villa,Pending
+Barbara Johnson,613-845-8938,barbara.johnson@realty.com,"2281 River St",Los Angeles,MI,5,2,1324,$269522,House,Active
+Linda Lopez,532.696.9319,linda.lopez@realty.com,"7492 River St",Philadelphia,IL,3,3,1167,$807529,Apartment,Active
+Nancy Anderson,(537) 466-6505,nancy.anderson@realty.com,"8588 Oak Ave",New York,MI,4,4,1426,$933810,Condo,Active
+Daniel Harris,872.376.4016,daniel.harris@realty.com,"2735 Maple Dr",Dallas,PA,4,2,1660,$605769,Townhouse,Pending
+Linda Hernandez,291.711.2363,linda.hernandez@realty.com,"9849 Oak Ave",Houston,TX,5,4,1523,$441028,Condo,Active
+James Wilson,(347) 606-5608,james.wilson@realty.com,"2082 River St",Houston,TX,2,1,3163,$886010,Condo,Pending
+Sarah Garcia,(660) 817-3981,sarah.garcia@realty.com,"6440 Main St",Philadelphia,CA,1,4,2323,$739919,Condo,Off Market
+Anthony Thomas,183.101.2702,anthony.thomas@realty.com,"5665 Park Ave",Chicago,PA,2,4,802,$301392,Apartment,Off Market
+James Rodriguez,(770) 753-9465,james.rodriguez@realty.com,"6948 Main St",Dallas,TX,2,4,2556,$573377,Apartment,Sold
+Emily Ramirez,582-794-1649,emily.ramirez@realty.com,"6218 Hill Rd",Chicago,MI,4,3,3683,$508084,Villa,Active
+Patricia Smith,+1-413-741-8306,patricia.smith@realty.com,"6650 River St",Dallas,CA,3,3,3008,$643243,Apartment,Sold
+Mary Taylor,820-149-5182,mary.taylor@realty.com,"6571 Cedar Ln",Philadelphia,CA,2,4,3125,$573065,Apartment,Pending
+John Robinson,+1-538-674-9562,john.robinson@realty.com,"6463 Maple Dr",San Diego,CA,5,3,2150,$945688,Townhouse,Active
+Anthony Lewis,+1-705-630-4549,anthony.lewis@realty.com,"4126 River St",Chicago,OH,1,2,3527,$494826,Villa,Sold
+Thomas Anderson,+1-521-456-7560,thomas.anderson@realty.com,"8336 Cedar Ln",Houston,NY,1,2,1155,$411926,Townhouse,Active
+Jennifer Martin,138.279.2466,jennifer.martin@realty.com,"6231 Park Ave",Houston,OH,5,4,1047,$981626,Apartment,Off Market
+Mary Martinez,706.777.1266,mary.martinez@realty.com,"2410 River St",Dallas,PA,2,4,2311,$357602,Townhouse,Pending
+Karen Lewis,(610) 362-7033,karen.lewis@realty.com,"8561 Lake Dr",San Diego,MI,3,3,2810,$165619,Condo,Active
+Joseph Gonzalez,719-108-4732,joseph.gonzalez@realty.com,"8352 River St",San Diego,OH,3,4,2776,$286252,Townhouse,Active
+Matthew Thomas,(927) 122-5285,matthew.thomas@realty.com,"7696 Elm St",New York,IL,4,2,3069,$449427,Villa,Pending
+Richard Davis,774.626.6865,richard.davis@realty.com,"5282 Cedar Ln",San Antonio,IL,1,2,2933,$266392,Condo,Off Market
+Jane Harris,(838) 333-8109,jane.harris@realty.com,"9458 Oak Ave",San Antonio,TX,3,3,2722,$802860,Condo,Pending
+Michael Robinson,641.511.9750,michael.robinson@realty.com,"9024 Pine Rd",Dallas,NY,1,2,3220,$304666,Townhouse,Active
+Betty Rodriguez,707-798-8453,betty.rodriguez@realty.com,"5978 Cedar Ln",Houston,NY,3,4,946,$424340,Condo,Active
+Barbara White,(146) 899-2089,barbara.white@realty.com,"5546 Maple Dr",San Antonio,NC,5,3,3599,$413036,Apartment,Pending
+Anthony Jackson,394-926-8548,anthony.jackson@realty.com,"5391 Maple Dr",Phoenix,GA,5,2,1964,$523903,Villa,Pending
+Elizabeth Perez,723.927.8937,elizabeth.perez@realty.com,"6505 Elm St",San Antonio,NC,5,1,2178,$197296,Villa,Active
+Robert Lopez,317.126.9317,robert.lopez@realty.com,"3092 Elm St",Chicago,IL,1,4,2974,$638788,Townhouse,Pending
+Michael Johnson,483.104.1031,michael.johnson@realty.com,"6558 Park Ave",San Diego,FL,5,2,1825,$298554,Condo,Off Market
+Linda Smith,736.119.1131,linda.smith@realty.com,"8230 Maple Dr",Philadelphia,TX,5,3,3160,$248909,Villa,Sold
+Patricia Perez,(965) 311-7101,patricia.perez@realty.com,"2979 Maple Dr",Los Angeles,NC,1,4,2219,$748234,Townhouse,Pending
+Patricia Lewis,989.250.8966,patricia.lewis@realty.com,"2912 Main St",San Antonio,TX,3,3,1094,$145155,Condo,Off Market
+Jennifer Gonzalez,300-212-3367,jennifer.gonzalez@realty.com,"8034 Cedar Ln",Philadelphia,MI,3,1,926,$874784,Townhouse,Off Market
+Matthew Perez,(671) 549-7036,matthew.perez@realty.com,"5842 Pine Rd",Dallas,NY,2,2,3227,$611298,House,Off Market
+Betty Jackson,+1-426-902-1851,betty.jackson@realty.com,"6833 Pine Rd",San Antonio,NY,4,3,1729,$735546,Townhouse,Pending
+Betty Harris,+1-701-486-7785,betty.harris@realty.com,"7700 Main St",Houston,IL,3,2,3331,$353218,Apartment,Sold
+Patricia Williams,+1-228-800-2330,patricia.williams@realty.com,"2559 Main St",Dallas,PA,1,2,2216,$684280,Apartment,Active
+Susan Martin,(985) 416-5474,susan.martin@realty.com,"6196 Main St",Phoenix,GA,5,2,2321,$686083,House,Active
+Barbara Williams,673-208-8462,barbara.williams@realty.com,"5301 Pine Rd",New York,GA,1,1,3259,$974918,Townhouse,Sold
+John Martin,(922) 467-2846,john.martin@realty.com,"4347 Maple Dr",Dallas,IL,1,4,1365,$583243,Apartment,Active
+John Smith,588-240-9777,john.smith@realty.com,"4020 River St",Los Angeles,OH,2,4,1324,$761268,House,Off Market
+Mary Jones,586.634.7846,mary.jones@realty.com,"8396 Lake Dr",Chicago,CA,3,2,3270,$581791,Apartment,Sold
+Jennifer Wilson,619-543-2621,jennifer.wilson@realty.com,"2086 Lake Dr",San Antonio,MI,3,2,2956,$909942,Apartment,Sold
+Elizabeth Harris,723-526-3920,elizabeth.harris@realty.com,"1407 Cedar Ln",Houston,NC,3,3,3456,$768540,Townhouse,Pending
+Jane Lopez,+1-166-481-3618,jane.lopez@realty.com,"8792 Main St",Chicago,NC,3,4,2450,$825667,Villa,Off Market
+Nancy White,677.535.9300,nancy.white@realty.com,"4032 Lake Dr",Dallas,NY,4,4,1123,$295976,House,Active
+Matthew Clark,(100) 607-6645,matthew.clark@realty.com,"9542 Pine Rd",Dallas,IL,2,2,3717,$887622,House,Off Market
+Nancy Garcia,387-947-7439,nancy.garcia@realty.com,"6874 Lake Dr",Houston,NY,2,1,3158,$751637,Condo,Sold
+Susan Williams,944-881-8532,susan.williams@realty.com,"7165 Cedar Ln",San Francisco,MI,3,3,847,$513766,Villa,Active
+Charles Robinson,+1-334-536-4067,charles.robinson@realty.com,"7576 Main St",Chicago,MI,1,2,1292,$945768,House,Active
+Patricia Lopez,766.280.8779,patricia.lopez@realty.com,"5102 Lake Dr",Houston,IL,3,1,1019,$335964,Condo,Sold
+Barbara Williams,320.858.8468,barbara.williams@realty.com,"1054 Maple Dr",Dallas,IL,2,1,832,$445871,House,Pending
+Matthew Gonzalez,(143) 861-6055,matthew.gonzalez@realty.com,"6004 Cedar Ln",San Diego,CA,4,1,1902,$111492,Condo,Pending
+Jennifer Taylor,(663) 920-8731,jennifer.taylor@realty.com,"1635 Hill Rd",San Francisco,GA,2,2,922,$249766,Condo,Sold
+Barbara Lee,936-528-9965,barbara.lee@realty.com,"3990 River St",New York,PA,3,1,2584,$255314,House,Off Market
+James Williams,+1-725-767-4325,james.williams@realty.com,"6185 Maple Dr",Chicago,IL,4,2,1654,$368941,Apartment,Off Market
+Matthew Robinson,+1-713-491-5920,matthew.robinson@realty.com,"2953 Lake Dr",Chicago,GA,2,4,2065,$622630,Apartment,Pending
+Nancy Anderson,+1-502-395-1336,nancy.anderson@realty.com,"1696 Park Ave",Dallas,MI,5,4,1358,$949128,Apartment,Pending
+Robert Ramirez,590.164.3901,robert.ramirez@realty.com,"6612 Hill Rd",Dallas,IL,5,4,2827,$183634,House,Active
+Sarah Lopez,+1-262-635-1718,sarah.lopez@realty.com,"6119 Elm St",San Antonio,NY,2,4,3456,$396919,Townhouse,Pending
+Karen Anderson,+1-139-744-7732,karen.anderson@realty.com,"6278 Elm St",New York,NC,4,3,3410,$606676,House,Pending
+Betty Martin,(103) 297-7398,betty.martin@realty.com,"6144 Hill Rd",San Antonio,CA,3,1,3195,$993950,Apartment,Pending
+Betty Gonzalez,(656) 966-5567,betty.gonzalez@realty.com,"1504 Park Ave",San Diego,NC,5,2,1129,$978314,Apartment,Active
+Sarah Lewis,(459) 349-8406,sarah.lewis@realty.com,"5615 Hill Rd",San Diego,TX,5,4,1349,$708437,House,Off Market
+Joseph Jackson,881.991.8864,joseph.jackson@realty.com,"6643 Pine Rd",New York,IL,4,1,3175,$648803,Villa,Pending
+Jessica Lewis,439.456.7812,jessica.lewis@realty.com,"8225 Oak Ave",Phoenix,TX,4,4,3401,$543450,Villa,Off Market
+Jennifer Lopez,(569) 626-8133,jennifer.lopez@realty.com,"8022 Cedar Ln",Dallas,NY,4,3,2953,$992344,Villa,Pending
+Daniel Anderson,130.754.7292,daniel.anderson@realty.com,"8676 Park Ave",Los Angeles,OH,2,2,2716,$520608,Condo,Active
+Emily Robinson,195-464-7530,emily.robinson@realty.com,"6977 Hill Rd",Phoenix,FL,5,1,3399,$726363,House,Pending
+Patricia Thompson,(226) 886-6073,patricia.thompson@realty.com,"4514 Maple Dr",Chicago,NC,3,4,2818,$658667,Townhouse,Active
+Karen Smith,+1-203-604-8387,karen.smith@realty.com,"2395 Hill Rd",San Antonio,TX,3,3,1569,$995144,House,Off Market
+Linda Taylor,352-277-2834,linda.taylor@realty.com,"8893 Main St",San Antonio,MI,4,4,3234,$405963,Villa,Off Market
+Michael Martin,(135) 947-4800,michael.martin@realty.com,"2006 Hill Rd",Chicago,PA,3,2,2038,$831368,Villa,Off Market
+John Ramirez,926.597.2464,john.ramirez@realty.com,"7190 Pine Rd",New York,TX,1,2,3438,$748821,Townhouse,Pending
+Betty Harris,645-625-3791,betty.harris@realty.com,"5599 Park Ave",San Diego,OH,1,4,964,$591980,Apartment,Off Market
+Joseph Williams,917.357.3348,joseph.williams@realty.com,"8486 Maple Dr",Dallas,FL,5,1,1549,$702179,Townhouse,Active
+Patricia White,760.560.4136,patricia.white@realty.com,"6126 Elm St",San Francisco,NC,5,1,2339,$622646,Villa,Pending
+Mark Smith,+1-604-326-8313,mark.smith@realty.com,"7060 Main St",Los Angeles,TX,1,4,963,$892937,Villa,Sold
+Robert Anderson,123-992-5253,robert.anderson@realty.com,"3907 Main St",San Francisco,OH,2,2,2814,$566296,Villa,Off Market
+Thomas Robinson,(365) 246-1410,thomas.robinson@realty.com,"8982 Oak Ave",Houston,GA,4,4,2103,$695404,Townhouse,Pending
+Barbara Jackson,136-373-5303,barbara.jackson@realty.com,"4583 River St",Dallas,TX,2,3,892,$495138,Apartment,Off Market
+James Robinson,227-428-9322,james.robinson@realty.com,"8559 Main St",Chicago,NY,1,2,1781,$672938,Condo,Pending
+Michael Moore,839.539.9233,michael.moore@realty.com,"7809 River St",San Diego,OH,1,3,845,$807472,Villa,Off Market
+Charles Davis,350-225-7849,charles.davis@realty.com,"1535 Oak Ave",Dallas,CA,5,2,1745,$626131,Townhouse,Pending
+Mark Moore,649.934.6266,mark.moore@realty.com,"4853 Main St",San Diego,OH,5,1,1485,$271954,Villa,Off Market
+Barbara Thomas,834-340-8524,barbara.thomas@realty.com,"2519 Hill Rd",San Diego,TX,4,1,3378,$666123,Villa,Sold
+Jane Martin,336.483.5164,jane.martin@realty.com,"1047 Lake Dr",Houston,OH,2,4,3317,$526189,Villa,Off Market
+Anthony Williams,+1-468-550-9827,anthony.williams@realty.com,"4935 Park Ave",San Diego,IL,2,4,2750,$418460,Townhouse,Active
+Sarah Robinson,216-485-1424,sarah.robinson@realty.com,"9378 Park Ave",Los Angeles,FL,2,2,1013,$374264,House,Pending
+John Thomas,(611) 947-9920,john.thomas@realty.com,"4356 Main St",Phoenix,IL,1,1,876,$391001,Condo,Sold
+John Moore,(152) 616-4747,john.moore@realty.com,"8460 Cedar Ln",San Francisco,IL,1,2,3068,$968356,Townhouse,Pending
+Robert Miller,424.551.7306,robert.miller@realty.com,"7581 Maple Dr",New York,NC,5,1,1293,$493891,Villa,Sold
+Patricia Lopez,757.930.9003,patricia.lopez@realty.com,"3737 Lake Dr",Chicago,NC,5,3,835,$803629,Apartment,Sold
+John Perez,617-594-5525,john.perez@realty.com,"4249 Cedar Ln",Los Angeles,GA,1,1,3173,$266406,Villa,Pending
+Mary White,(607) 613-5652,mary.white@realty.com,"4672 Hill Rd",Chicago,IL,3,2,2942,$322667,Apartment,Sold
+Anthony Lewis,877.246.4286,anthony.lewis@realty.com,"9738 River St",San Francisco,FL,3,4,2122,$212121,House,Active
+Patricia Perez,799.986.1996,patricia.perez@realty.com,"3949 Park Ave",Los Angeles,PA,2,1,1553,$868089,Townhouse,Off Market
+Michael Miller,+1-509-676-8542,michael.miller@realty.com,"8630 Maple Dr",San Antonio,GA,2,3,2167,$672577,House,Sold
+Nancy Gonzalez,657-235-8823,nancy.gonzalez@realty.com,"9976 Cedar Ln",San Francisco,CA,5,4,1983,$666864,Apartment,Sold
+Karen Jones,849.645.9472,karen.jones@realty.com,"2941 Oak Ave",Chicago,PA,1,4,3140,$897782,Townhouse,Sold
+Lisa Sanchez,107-541-4136,lisa.sanchez@realty.com,"4479 Oak Ave",San Diego,FL,4,3,2450,$469049,House,Sold
+Susan Ramirez,(548) 886-6149,susan.ramirez@realty.com,"2577 Park Ave",New York,MI,3,2,2928,$997006,House,Active
+Charles Lopez,+1-127-647-7027,charles.lopez@realty.com,"3458 Pine Rd",San Antonio,NY,1,1,3071,$211233,Villa,Pending
+Mark Rodriguez,675.979.8514,mark.rodriguez@realty.com,"7734 Elm St",San Francisco,PA,4,4,1563,$733730,Apartment,Sold
+Elizabeth Thomas,833-486-8750,elizabeth.thomas@realty.com,"7012 Oak Ave",Dallas,NY,5,1,3773,$419959,Condo,Sold
+Jane Smith,456-111-7174,jane.smith@realty.com,"8682 Cedar Ln",Los Angeles,NY,5,1,2187,$187693,Townhouse,Pending
+Mary Miller,(539) 773-4491,mary.miller@realty.com,"6604 Pine Rd",Phoenix,MI,3,4,3544,$154071,Townhouse,Sold
+Jennifer White,+1-732-181-8389,jennifer.white@realty.com,"2067 Main St",San Antonio,IL,2,2,3101,$371020,Apartment,Sold
+Lisa Wilson,+1-466-419-2330,lisa.wilson@realty.com,"6724 Hill Rd",Chicago,GA,2,2,1954,$835487,Condo,Pending
+Charles Wilson,+1-310-217-8280,charles.wilson@realty.com,"6833 Hill Rd",New York,FL,3,1,1910,$658329,Condo,Off Market
+Karen Martinez,(524) 914-2426,karen.martinez@realty.com,"4097 Elm St",San Francisco,TX,2,3,1624,$608122,Condo,Sold
+Mark Jackson,724.980.3588,mark.jackson@realty.com,"8334 Pine Rd",San Antonio,NY,4,3,2461,$180679,Condo,Off Market
+Christopher Lopez,+1-404-258-6729,christopher.lopez@realty.com,"8217 Cedar Ln",Dallas,GA,5,2,1451,$355593,Apartment,Pending
+Thomas Johnson,254-305-1554,thomas.johnson@realty.com,"2257 Maple Dr",Houston,NC,1,1,2900,$126681,Apartment,Sold
+Jessica Williams,253.137.1928,jessica.williams@realty.com,"9074 Elm St",San Antonio,TX,4,1,1152,$607140,Villa,Sold
+John Lewis,164-902-8166,john.lewis@realty.com,"5511 Lake Dr",Dallas,PA,5,2,3235,$451668,House,Active
+Robert Moore,(958) 701-8854,robert.moore@realty.com,"4345 Hill Rd",New York,TX,5,4,2463,$768397,House,Sold
+Susan Garcia,570.448.3384,susan.garcia@realty.com,"3383 Main St",San Francisco,FL,4,1,2076,$186031,Villa,Active
+Daniel Lopez,503.975.6822,daniel.lopez@realty.com,"3414 Park Ave",Phoenix,NY,5,3,1057,$313471,Townhouse,Off Market
+Mary Thompson,(218) 658-8311,mary.thompson@realty.com,"4595 Oak Ave",Phoenix,CA,2,2,926,$217891,Townhouse,Off Market
+Jennifer Clark,150-840-3205,jennifer.clark@realty.com,"4817 Maple Dr",San Francisco,IL,3,2,3739,$355926,House,Off Market
+Lisa Miller,225-950-5203,lisa.miller@realty.com,"2861 Maple Dr",Houston,MI,1,3,1994,$994904,Condo,Off Market
+David Moore,788-505-1423,david.moore@realty.com,"8868 Pine Rd",Dallas,GA,2,4,1815,$129702,Apartment,Sold
+Richard Johnson,(525) 786-3187,richard.johnson@realty.com,"6725 Maple Dr",Houston,TX,2,2,3741,$756424,House,Sold
+James Sanchez,+1-136-994-9311,james.sanchez@realty.com,"6517 Hill Rd",Philadelphia,TX,1,1,1086,$226714,Condo,Sold
+Sarah Jones,783.277.3192,sarah.jones@realty.com,"7476 Cedar Ln",Phoenix,IL,3,1,3252,$745679,Apartment,Off Market
+Jane Ramirez,792-825-4183,jane.ramirez@realty.com,"4976 Lake Dr",Phoenix,NC,1,1,3423,$195516,Condo,Active
+Thomas Moore,(898) 108-5696,thomas.moore@realty.com,"2964 Oak Ave",Chicago,NC,4,1,3051,$778950,Townhouse,Active
+Christopher Anderson,696.700.7535,christopher.anderson@realty.com,"5725 River St",Los Angeles,PA,1,1,3774,$284834,Apartment,Active
+Jennifer Garcia,798.758.3913,jennifer.garcia@realty.com,"6109 Elm St",Los Angeles,PA,3,2,3222,$859624,Condo,Off Market
+Nancy Anderson,(292) 618-5266,nancy.anderson@realty.com,"2393 Cedar Ln",Houston,PA,5,1,1576,$918706,House,Active
+John Hernandez,(773) 768-7354,john.hernandez@realty.com,"7007 Maple Dr",Philadelphia,NY,4,4,3574,$528448,Condo,Active
+Michael Garcia,226-604-9793,michael.garcia@realty.com,"2472 Hill Rd",Phoenix,IL,1,2,3621,$338682,Villa,Sold
+Emily Moore,+1-645-406-9380,emily.moore@realty.com,"3476 Lake Dr",San Diego,TX,1,4,3235,$416185,House,Pending
+Michael White,(200) 560-9022,michael.white@realty.com,"1988 Pine Rd",New York,NY,5,1,2600,$328567,House,Sold
+Patricia Thompson,+1-254-821-9064,patricia.thompson@realty.com,"3994 Lake Dr",Phoenix,FL,3,2,1470,$870436,House,Active
+John Thomas,795.677.4299,john.thomas@realty.com,"3369 Hill Rd",Dallas,OH,5,3,802,$919196,Townhouse,Sold
+Daniel Hernandez,667-417-6045,daniel.hernandez@realty.com,"2879 Pine Rd",San Francisco,NC,4,1,1224,$823070,Townhouse,Pending
+Anthony Martin,358-367-4446,anthony.martin@realty.com,"8212 Oak Ave",Chicago,MI,2,2,2748,$684309,Condo,Off Market
+Anthony Sanchez,205.465.3861,anthony.sanchez@realty.com,"2794 River St",Phoenix,IL,2,2,3269,$552875,Villa,Off Market
+Richard Miller,956.325.3343,richard.miller@realty.com,"4552 Pine Rd",Philadelphia,TX,1,1,1478,$256230,Condo,Pending
+Susan Jones,(777) 333-6755,susan.jones@realty.com,"2665 Cedar Ln",Phoenix,PA,1,2,3077,$938559,Condo,Off Market
+William Martin,592-189-5061,william.martin@realty.com,"7778 Cedar Ln",Los Angeles,IL,1,2,1064,$254036,Condo,Pending
+Michael Clark,409.616.5867,michael.clark@realty.com,"1395 Cedar Ln",Dallas,MI,1,2,949,$566730,House,Sold
+Robert Lee,+1-710-211-9161,robert.lee@realty.com,"9155 Cedar Ln",San Francisco,NC,1,3,1654,$726660,Apartment,Pending
+Michael Johnson,(710) 178-9708,michael.johnson@realty.com,"4225 Main St",Chicago,GA,5,4,3306,$635924,House,Off Market
+Robert Harris,(817) 444-6709,robert.harris@realty.com,"8494 Park Ave",Phoenix,NC,4,1,2048,$870475,House,Off Market
+Karen Taylor,+1-223-956-1328,karen.taylor@realty.com,"9282 Main St",Philadelphia,IL,4,2,2797,$800326,Condo,Active
+Mary Martinez,325.946.8870,mary.martinez@realty.com,"9629 Lake Dr",Phoenix,TX,3,4,3146,$456908,House,Active
+Barbara Johnson,506-505-2965,barbara.johnson@realty.com,"7180 Elm St",San Diego,OH,5,2,1146,$606106,Villa,Off Market
+Anthony Brown,+1-719-395-3800,anthony.brown@realty.com,"8468 Hill Rd",Houston,MI,4,4,2931,$353251,Condo,Pending
+Christopher Jones,+1-545-634-3193,christopher.jones@realty.com,"7895 Pine Rd",Phoenix,PA,1,2,1904,$876298,Apartment,Pending
+Mark Robinson,588.914.3861,mark.robinson@realty.com,"6538 Hill Rd",Philadelphia,IL,1,3,1390,$875682,Townhouse,Active
+David Jackson,+1-673-843-3851,david.jackson@realty.com,"8236 Main St",San Antonio,MI,2,4,3493,$724445,House,Off Market
+Richard Jones,452.865.5796,richard.jones@realty.com,"6466 Pine Rd",Philadelphia,GA,4,4,1057,$181658,Villa,Active
+Elizabeth Wilson,476-280-4468,elizabeth.wilson@realty.com,"9285 Cedar Ln",Phoenix,PA,2,1,2450,$829888,Townhouse,Sold
+Joseph Clark,(810) 727-3401,joseph.clark@realty.com,"3033 Elm St",San Diego,NC,2,1,3137,$140078,Townhouse,Active
+Barbara Johnson,+1-874-941-3382,barbara.johnson@realty.com,"1976 River St",New York,NY,1,4,3127,$131782,Townhouse,Active
+Matthew Lee,900-132-9462,matthew.lee@realty.com,"4115 River St",San Diego,IL,3,4,2731,$261985,House,Off Market
+Betty Rodriguez,(579) 355-1582,betty.rodriguez@realty.com,"3033 Pine Rd",Chicago,IL,5,3,3584,$159709,House,Sold
+Emily Moore,+1-456-116-2808,emily.moore@realty.com,"9751 River St",Dallas,TX,3,3,2472,$894244,Condo,Off Market
+Thomas Thompson,348.424.1425,thomas.thompson@realty.com,"8239 Cedar Ln",Dallas,NY,5,3,2747,$536316,Apartment,Pending
+Sarah Lopez,201-105-9664,sarah.lopez@realty.com,"4926 Main St",Philadelphia,IL,3,4,1468,$547554,Condo,Active
+William Sanchez,217-358-2969,william.sanchez@realty.com,"6135 Lake Dr",San Antonio,MI,1,2,2363,$361952,Villa,Pending
+Patricia Thompson,(623) 710-4532,patricia.thompson@realty.com,"3716 Pine Rd",Philadelphia,MI,4,3,2990,$221833,Apartment,Off Market
+Daniel Anderson,622-716-3919,daniel.anderson@realty.com,"7647 Elm St",Dallas,NC,2,3,2644,$364447,Condo,Active
+Joseph Jackson,531.244.4585,joseph.jackson@realty.com,"5539 Lake Dr",Los Angeles,TX,5,3,3170,$525045,House,Off Market
+David Robinson,887-969-7168,david.robinson@realty.com,"3770 Maple Dr",Chicago,NY,3,3,2495,$417251,Condo,Sold
+David Smith,(151) 266-1020,david.smith@realty.com,"8527 Oak Ave",Houston,TX,5,1,1138,$711909,Apartment,Active
+Jane Williams,+1-552-712-7272,jane.williams@realty.com,"3872 Park Ave",Phoenix,CA,4,4,1668,$460192,House,Active
+Mark Jones,888.410.8480,mark.jones@realty.com,"7375 Cedar Ln",Los Angeles,TX,4,1,1526,$351893,Townhouse,Active
+Lisa Sanchez,671.332.7298,lisa.sanchez@realty.com,"4948 Main St",Phoenix,MI,1,4,3512,$782697,Apartment,Off Market
+Patricia Perez,(509) 156-1478,patricia.perez@realty.com,"6791 Pine Rd",Houston,FL,1,2,3690,$524019,House,Off Market
+Barbara Jones,+1-434-232-4829,barbara.jones@realty.com,"8080 Cedar Ln",New York,IL,1,2,2673,$214501,Apartment,Active
+William Smith,571-316-2818,william.smith@realty.com,"9107 Park Ave",Houston,NY,3,4,3323,$442309,House,Active
+Mark Clark,+1-719-442-3243,mark.clark@realty.com,"5029 Oak Ave",Dallas,OH,3,2,836,$801953,House,Off Market
+Jessica White,(463) 811-5823,jessica.white@realty.com,"1221 Lake Dr",Philadelphia,GA,5,1,1714,$494272,Apartment,Off Market
+James Anderson,(442) 824-4795,james.anderson@realty.com,"3781 Main St",San Antonio,OH,3,1,2308,$505871,Condo,Sold
+Jane Jones,888-935-7181,jane.jones@realty.com,"5897 Elm St",San Antonio,TX,4,3,1741,$634189,Condo,Active
+Jane Lopez,+1-479-742-9284,jane.lopez@realty.com,"9188 Cedar Ln",New York,OH,4,4,1247,$411907,Apartment,Pending
+Sarah Wilson,+1-465-312-4007,sarah.wilson@realty.com,"7591 Maple Dr",Houston,IL,2,1,1927,$523439,Apartment,Off Market
+John White,814-449-9503,john.white@realty.com,"3155 Pine Rd",Philadelphia,IL,5,1,3711,$521576,Apartment,Active
+Joseph Sanchez,(588) 931-6635,joseph.sanchez@realty.com,"4456 Elm St",Houston,GA,2,3,3088,$282794,Apartment,Sold
+Thomas Robinson,232-330-5570,thomas.robinson@realty.com,"7201 Cedar Ln",Dallas,CA,4,4,1386,$888236,Townhouse,Pending
+James Jones,770-419-9869,james.jones@realty.com,"3786 Park Ave",San Antonio,OH,5,2,3151,$596324,Apartment,Active
+Daniel Brown,370-853-9531,daniel.brown@realty.com,"1079 Maple Dr",San Francisco,GA,2,3,1481,$739883,Condo,Active
+Nancy Robinson,+1-777-633-7017,nancy.robinson@realty.com,"7634 Cedar Ln",Dallas,TX,4,4,1853,$638448,Villa,Active
+Anthony Williams,524.244.9942,anthony.williams@realty.com,"4355 Hill Rd",New York,GA,5,1,2080,$541075,Villa,Off Market
+Robert Wilson,(933) 797-7204,robert.wilson@realty.com,"3576 River St",Los Angeles,NY,5,1,2324,$277107,Condo,Active
+Michael Gonzalez,+1-203-465-2071,michael.gonzalez@realty.com,"7028 Lake Dr",Phoenix,NC,4,3,1103,$347569,Condo,Sold
+Sarah Anderson,(925) 709-2295,sarah.anderson@realty.com,"4548 Cedar Ln",San Francisco,IL,1,2,3382,$112431,Condo,Pending
+James Sanchez,710-326-2367,james.sanchez@realty.com,"4706 Lake Dr",San Francisco,PA,5,3,1907,$621549,Villa,Sold
+Nancy Thomas,767-610-2079,nancy.thomas@realty.com,"2846 Cedar Ln",San Antonio,IL,2,1,951,$755735,Apartment,Pending
+Linda Anderson,359.359.7637,linda.anderson@realty.com,"5199 Hill Rd",San Diego,OH,2,2,2116,$211819,Condo,Sold
+Charles Hernandez,986-123-2169,charles.hernandez@realty.com,"4801 River St",San Francisco,CA,4,2,2823,$913969,Apartment,Sold
+Christopher Thompson,(588) 591-2681,christopher.thompson@realty.com,"2784 Pine Rd",San Antonio,TX,4,4,1983,$224269,House,Off Market
+Christopher Thomas,(551) 112-2152,christopher.thomas@realty.com,"9032 Pine Rd",Houston,TX,5,1,1198,$319444,House,Sold
+Barbara Hernandez,(283) 905-3873,barbara.hernandez@realty.com,"6555 Main St",Chicago,IL,2,1,1315,$456377,Townhouse,Pending
+Jessica Moore,+1-264-959-9197,jessica.moore@realty.com,"9000 River St",San Diego,FL,4,2,2377,$578044,House,Pending
+Jessica Martinez,401.465.8556,jessica.martinez@realty.com,"1794 Oak Ave",New York,MI,2,2,2664,$507296,Condo,Pending
+Karen Jones,(704) 426-8697,karen.jones@realty.com,"2922 Oak Ave",Houston,FL,1,1,1265,$505032,Apartment,Off Market
+Robert Gonzalez,266-773-4949,robert.gonzalez@realty.com,"5748 River St",Chicago,OH,1,3,2848,$202602,Villa,Active
+Linda Rodriguez,+1-208-890-3254,linda.rodriguez@realty.com,"6769 Elm St",Phoenix,TX,4,2,2811,$177101,House,Sold
+Barbara Martin,(481) 999-9056,barbara.martin@realty.com,"7051 River St",San Antonio,FL,3,3,3667,$279436,Condo,Off Market
+John Thomas,(522) 468-9547,john.thomas@realty.com,"7958 River St",Chicago,NC,2,2,3692,$165260,House,Sold
+Linda Jones,582.872.2068,linda.jones@realty.com,"8988 Oak Ave",Philadelphia,TX,1,2,1253,$724490,Condo,Active
+Matthew Sanchez,+1-598-777-2276,matthew.sanchez@realty.com,"5736 Cedar Ln",New York,MI,2,2,2656,$172835,House,Active
+Patricia Lee,488-812-3848,patricia.lee@realty.com,"2431 Pine Rd",Phoenix,OH,5,3,2650,$780922,Apartment,Active
+Elizabeth Garcia,+1-706-572-1354,elizabeth.garcia@realty.com,"3734 Maple Dr",Chicago,CA,4,3,2401,$813986,Townhouse,Off Market
+Jane Lee,222-579-3322,jane.lee@realty.com,"4452 Pine Rd",San Diego,MI,5,1,3306,$672650,Townhouse,Sold
+Richard Clark,890.100.2877,richard.clark@realty.com,"8712 Lake Dr",Los Angeles,PA,3,2,2897,$427843,Condo,Pending
+Emily Moore,862.783.9760,emily.moore@realty.com,"3658 Pine Rd",Chicago,NY,2,4,1855,$580057,Villa,Active
+Jessica Martin,+1-201-755-2519,jessica.martin@realty.com,"5988 Park Ave",Houston,CA,2,3,3627,$690086,Apartment,Off Market
+Anthony Moore,+1-577-328-1217,anthony.moore@realty.com,"3252 Maple Dr",San Francisco,FL,5,1,1054,$831315,Villa,Off Market
+Matthew Clark,(701) 713-4060,matthew.clark@realty.com,"8037 Lake Dr",San Francisco,IL,1,4,3165,$696800,Villa,Sold
+Joseph Robinson,655.328.8527,joseph.robinson@realty.com,"9491 Maple Dr",Phoenix,OH,4,4,2986,$504005,House,Pending
+Joseph Martinez,(292) 256-8242,joseph.martinez@realty.com,"9042 Main St",New York,MI,2,3,2798,$783423,Villa,Sold
+Mary Jackson,(328) 811-7949,mary.jackson@realty.com,"4310 Lake Dr",San Diego,PA,2,4,2211,$553369,Condo,Active
+William Clark,(384) 310-6620,william.clark@realty.com,"7526 Lake Dr",Phoenix,GA,2,4,1597,$206056,House,Sold
+Linda Lewis,+1-669-232-1641,linda.lewis@realty.com,"2467 Main St",San Antonio,TX,4,4,2552,$503385,Villa,Active
+Michael Davis,480-689-4086,michael.davis@realty.com,"8706 Pine Rd",Phoenix,IL,1,2,3204,$593195,Apartment,Off Market
+Linda Williams,+1-784-717-8837,linda.williams@realty.com,"2567 Pine Rd",Philadelphia,GA,2,4,1712,$380093,Villa,Pending
+Robert Hernandez,(421) 239-5806,robert.hernandez@realty.com,"5779 Pine Rd",Phoenix,MI,3,1,2154,$649092,House,Active
+William Lewis,(830) 329-5496,william.lewis@realty.com,"8284 River St",San Francisco,MI,2,1,965,$240107,Villa,Pending
+Jennifer Ramirez,370-539-7961,jennifer.ramirez@realty.com,"5361 Elm St",San Francisco,OH,4,2,2828,$764379,Townhouse,Sold
+Richard Williams,589-414-7235,richard.williams@realty.com,"6560 Oak Ave",San Antonio,NC,4,3,973,$928574,Townhouse,Pending
+Mary Harris,935.580.3388,mary.harris@realty.com,"6669 Maple Dr",Chicago,CA,3,3,2976,$652713,Apartment,Active
+Patricia Taylor,+1-413-148-5783,patricia.taylor@realty.com,"2532 Oak Ave",Dallas,PA,4,2,2007,$425130,Townhouse,Active
+Lisa Brown,+1-417-683-9657,lisa.brown@realty.com,"3920 River St",San Diego,NC,2,1,2938,$676507,Villa,Sold
+Michael Harris,(890) 391-7202,michael.harris@realty.com,"1337 Hill Rd",New York,OH,4,2,3120,$142398,Condo,Pending
+Linda Williams,(463) 710-8683,linda.williams@realty.com,"4072 Main St",Philadelphia,MI,2,1,3568,$925917,Townhouse,Active
+Jane Rodriguez,988.734.2971,jane.rodriguez@realty.com,"6812 Elm St",Houston,IL,3,3,1723,$811934,House,Off Market
+Jennifer Garcia,(629) 469-7930,jennifer.garcia@realty.com,"6720 Pine Rd",New York,OH,5,2,2877,$547960,Townhouse,Sold
+John Jackson,(370) 291-2184,john.jackson@realty.com,"7155 Oak Ave",Los Angeles,TX,1,2,2981,$858237,Apartment,Active
+Joseph Smith,(949) 483-2525,joseph.smith@realty.com,"6156 River St",San Antonio,OH,4,3,1657,$908085,House,Sold
+William Davis,+1-252-183-5646,william.davis@realty.com,"7455 River St",Phoenix,PA,1,3,2655,$914190,Condo,Pending
+Christopher Miller,+1-968-357-8034,christopher.miller@realty.com,"5387 Hill Rd",Chicago,NC,2,1,1088,$831244,Condo,Active
+Jane Gonzalez,875.854.9504,jane.gonzalez@realty.com,"6070 Pine Rd",Phoenix,OH,3,4,2499,$111708,House,Active
+Susan Jones,+1-262-224-9157,susan.jones@realty.com,"4291 River St",Houston,IL,5,4,2654,$948015,House,Off Market
+Michael Miller,+1-791-967-5524,michael.miller@realty.com,"7225 Lake Dr",San Antonio,PA,3,3,3613,$947079,Townhouse,Pending
+Linda Hernandez,(845) 914-1992,linda.hernandez@realty.com,"7922 Elm St",Philadelphia,NY,2,1,3686,$938177,House,Sold
+Barbara Taylor,176.220.1399,barbara.taylor@realty.com,"2941 Lake Dr",Phoenix,CA,2,4,837,$776079,Villa,Pending
+Betty Lopez,987-890-6713,betty.lopez@realty.com,"5927 Hill Rd",New York,NC,4,4,2028,$494791,Villa,Sold
+Linda White,+1-449-677-2229,linda.white@realty.com,"7600 Maple Dr",Dallas,MI,2,4,2327,$174023,Condo,Sold
+Susan Ramirez,951-602-4302,susan.ramirez@realty.com,"4448 Cedar Ln",Los Angeles,CA,3,3,2750,$700629,Apartment,Pending
+David Clark,571-937-2931,david.clark@realty.com,"4112 Pine Rd",Dallas,OH,5,4,3403,$827401,Condo,Active
+Charles Brown,+1-308-201-5724,charles.brown@realty.com,"8009 Park Ave",Chicago,NC,4,4,3760,$643119,Townhouse,Off Market
+James Gonzalez,650-766-7359,james.gonzalez@realty.com,"8686 Lake Dr",Philadelphia,NC,2,1,1383,$855766,Villa,Active
+Mary Williams,186-677-7083,mary.williams@realty.com,"7237 Oak Ave",Houston,IL,2,1,804,$900295,Condo,Sold
+Susan Martinez,(498) 995-4427,susan.martinez@realty.com,"2856 Park Ave",New York,FL,4,1,1334,$278870,Townhouse,Sold
+Jennifer White,193-629-9142,jennifer.white@realty.com,"3686 Park Ave",Los Angeles,NC,5,1,824,$398377,Townhouse,Off Market
+Thomas Jones,(261) 843-8112,thomas.jones@realty.com,"2920 Elm St",San Antonio,GA,5,1,2652,$515256,Apartment,Sold
+Charles Williams,+1-751-293-2435,charles.williams@realty.com,"9358 Hill Rd",Dallas,NY,1,3,2109,$332799,Townhouse,Off Market
+Charles Brown,+1-230-184-7425,charles.brown@realty.com,"8867 Main St",New York,PA,4,1,1334,$443133,Townhouse,Off Market
+Jennifer Thomas,+1-668-345-4571,jennifer.thomas@realty.com,"6419 Oak Ave",San Antonio,IL,1,3,3465,$444007,Condo,Sold
+Jessica Sanchez,+1-985-853-8712,jessica.sanchez@realty.com,"1994 Maple Dr",New York,GA,4,1,3475,$403116,Townhouse,Sold
+Joseph Davis,230-538-1657,joseph.davis@realty.com,"1791 Maple Dr",Los Angeles,PA,5,1,3405,$348324,Condo,Active
+Linda Robinson,104-403-3475,linda.robinson@realty.com,"4606 Maple Dr",Phoenix,OH,3,1,2314,$540682,Apartment,Sold
+Anthony Hernandez,(210) 802-6667,anthony.hernandez@realty.com,"2263 Oak Ave",Philadelphia,FL,3,1,1045,$870866,House,Off Market
+Sarah Gonzalez,899.423.4998,sarah.gonzalez@realty.com,"5688 River St",Los Angeles,OH,1,1,2191,$828386,House,Sold
+Patricia Anderson,518-371-9892,patricia.anderson@realty.com,"6184 Elm St",New York,CA,5,2,2288,$343643,Villa,Pending
+Christopher White,(409) 330-7456,christopher.white@realty.com,"5211 Oak Ave",Chicago,TX,5,1,1354,$543389,House,Off Market
+James Garcia,(965) 796-5672,james.garcia@realty.com,"8131 River St",Philadelphia,CA,5,2,3546,$402537,Townhouse,Sold
+Susan Thomas,500.938.5277,susan.thomas@realty.com,"4243 Pine Rd",Phoenix,OH,4,4,2716,$266202,Condo,Pending
+Jane Martin,+1-475-719-8171,jane.martin@realty.com,"6726 Lake Dr",Dallas,NY,5,2,1724,$694788,Townhouse,Pending
+Nancy Jackson,914-969-4440,nancy.jackson@realty.com,"9159 Oak Ave",Phoenix,PA,4,2,1043,$432961,Condo,Pending
+William Taylor,+1-150-979-5126,william.taylor@realty.com,"6498 Hill Rd",Dallas,FL,2,1,846,$385040,Apartment,Off Market
+Lisa Harris,(921) 103-8562,lisa.harris@realty.com,"9334 Oak Ave",Dallas,GA,3,1,970,$193112,House,Sold
+Karen Rodriguez,981.640.8969,karen.rodriguez@realty.com,"6426 Maple Dr",San Diego,GA,3,3,2435,$653140,House,Sold
+Barbara Rodriguez,335.188.5151,barbara.rodriguez@realty.com,"7290 Pine Rd",San Diego,CA,1,1,3542,$441961,House,Pending
+David Moore,694.692.7704,david.moore@realty.com,"7389 Oak Ave",Houston,OH,2,1,2238,$898786,Condo,Sold
+Barbara Jackson,709-630-3798,barbara.jackson@realty.com,"3780 Elm St",New York,OH,2,1,3012,$786606,Townhouse,Pending
+John Gonzalez,(167) 163-6719,john.gonzalez@realty.com,"7356 Elm St",Los Angeles,TX,2,2,2065,$552295,House,Sold
+James Lopez,769.767.8701,james.lopez@realty.com,"8165 Hill Rd",Houston,NY,4,3,908,$599074,House,Sold
+Betty Ramirez,541.516.5822,betty.ramirez@realty.com,"3371 Elm St",San Francisco,FL,4,2,958,$344307,Villa,Pending
+Jennifer Gonzalez,(192) 189-8136,jennifer.gonzalez@realty.com,"9848 River St",Chicago,GA,1,4,2484,$493284,Apartment,Off Market
+Susan Anderson,560-441-8522,susan.anderson@realty.com,"6789 Hill Rd",San Diego,MI,2,2,2186,$815899,Townhouse,Active
+Barbara Thompson,557-285-9550,barbara.thompson@realty.com,"3975 Hill Rd",San Francisco,MI,5,3,2908,$970917,Villa,Pending
+Mary Harris,136.464.6113,mary.harris@realty.com,"1942 Lake Dr",Los Angeles,MI,2,4,866,$155145,Townhouse,Off Market
+Christopher Jones,872.512.1585,christopher.jones@realty.com,"3814 Pine Rd",Chicago,FL,5,4,3042,$865166,Villa,Sold
+Linda Johnson,406-727-8454,linda.johnson@realty.com,"1082 Maple Dr",San Francisco,MI,4,2,3296,$180886,Townhouse,Sold
+Elizabeth Martinez,(734) 875-3467,elizabeth.martinez@realty.com,"4116 Park Ave",Los Angeles,IL,1,3,2808,$375200,Condo,Sold
+Karen Martin,839.875.7158,karen.martin@realty.com,"7631 River St",Dallas,OH,2,1,3349,$449870,Apartment,Pending
+Thomas Johnson,(929) 217-1509,thomas.johnson@realty.com,"6713 Cedar Ln",San Antonio,NY,3,1,2716,$871693,Apartment,Active
+Linda Lopez,747.478.6503,linda.lopez@realty.com,"8105 Cedar Ln",Chicago,GA,5,1,1305,$924928,Townhouse,Off Market
+Daniel Moore,659.549.2132,daniel.moore@realty.com,"3253 Pine Rd",Houston,TX,4,2,1030,$708894,Townhouse,Active
+Christopher Hernandez,102-658-4390,christopher.hernandez@realty.com,"5856 Pine Rd",San Antonio,TX,3,2,1852,$687520,Apartment,Active
+Mark Wilson,902-276-4543,mark.wilson@realty.com,"1219 Park Ave",Phoenix,NC,5,2,3554,$520347,Condo,Sold
+Nancy Harris,963-956-4794,nancy.harris@realty.com,"8961 Hill Rd",Philadelphia,CA,5,1,3704,$799840,Townhouse,Active
+Anthony Thompson,146.363.7446,anthony.thompson@realty.com,"1686 Maple Dr",Phoenix,PA,2,4,1445,$679857,Townhouse,Off Market
+Robert Smith,(521) 452-3477,robert.smith@realty.com,"3992 River St",Phoenix,PA,4,3,3400,$918462,House,Pending
+Elizabeth Lee,+1-647-542-1155,elizabeth.lee@realty.com,"2073 Elm St",San Diego,TX,2,4,933,$577630,Villa,Off Market
+Jane Moore,242.375.4951,jane.moore@realty.com,"1469 Elm St",Chicago,CA,5,2,3203,$309217,Condo,Off Market
+Emily Garcia,(144) 274-1640,emily.garcia@realty.com,"7012 Elm St",San Antonio,OH,2,4,866,$995648,Apartment,Pending
+William Ramirez,233.111.6373,william.ramirez@realty.com,"1458 River St",Philadelphia,IL,4,4,835,$799396,Villa,Off Market
+Matthew Martin,+1-856-120-1469,matthew.martin@realty.com,"6095 Park Ave",Philadelphia,NY,3,3,2391,$978831,Villa,Sold
+Linda Smith,431.243.6147,linda.smith@realty.com,"9891 Hill Rd",Phoenix,GA,2,3,3770,$204381,Apartment,Sold
+Jennifer Williams,931-497-2886,jennifer.williams@realty.com,"1205 Pine Rd",San Antonio,PA,5,3,3560,$884253,Townhouse,Sold
+Charles Brown,218.555.8628,charles.brown@realty.com,"3933 Lake Dr",Dallas,GA,2,3,1010,$612014,Condo,Off Market
+Linda Davis,762-397-9641,linda.davis@realty.com,"3358 Pine Rd",San Francisco,CA,5,2,1292,$225623,House,Active
+Jessica Garcia,(491) 539-8199,jessica.garcia@realty.com,"4346 Hill Rd",San Diego,IL,2,3,1332,$744594,Condo,Pending
+Mary Smith,987-415-9591,mary.smith@realty.com,"4932 Pine Rd",Philadelphia,GA,2,1,3425,$973255,House,Sold
+Jane Clark,435-164-2874,jane.clark@realty.com,"6832 Main St",San Francisco,IL,4,2,3102,$701916,Villa,Pending
+Emily Perez,119-990-5851,emily.perez@realty.com,"9788 Lake Dr",San Francisco,NC,3,2,3211,$371714,House,Sold
+Lisa Davis,420-807-3487,lisa.davis@realty.com,"7627 Pine Rd",Chicago,TX,2,4,2460,$740791,House,Off Market
+Mary Clark,778-967-8627,mary.clark@realty.com,"9582 Pine Rd",San Antonio,IL,4,3,2876,$874016,Condo,Active
+Linda Miller,267.493.1019,linda.miller@realty.com,"2681 Oak Ave",Philadelphia,NY,2,3,2688,$310446,Apartment,Off Market
+Betty Johnson,885-885-4355,betty.johnson@realty.com,"2943 Maple Dr",Dallas,OH,5,2,1744,$787650,Condo,Off Market
+Sarah Thompson,+1-364-534-1419,sarah.thompson@realty.com,"7357 Hill Rd",San Francisco,CA,4,1,1138,$978019,Townhouse,Sold
+Robert White,+1-398-971-3041,robert.white@realty.com,"3997 Park Ave",San Francisco,CA,1,3,2810,$323739,House,Off Market
+Susan Lewis,(323) 482-2757,susan.lewis@realty.com,"4998 Main St",San Diego,TX,1,2,3351,$549824,Apartment,Active
+Matthew Martinez,(319) 624-6146,matthew.martinez@realty.com,"9162 Hill Rd",San Francisco,CA,3,4,899,$215041,Apartment,Pending
+Thomas Davis,(799) 947-4024,thomas.davis@realty.com,"9651 Cedar Ln",San Diego,TX,4,2,1848,$109148,Apartment,Pending
+Betty Lewis,+1-402-674-3032,betty.lewis@realty.com,"2993 Oak Ave",Houston,NY,2,3,2194,$520236,Villa,Sold
+David Davis,427-614-5029,david.davis@realty.com,"6910 River St",New York,OH,3,4,1776,$815299,Condo,Sold
+Lisa Martinez,463.989.1542,lisa.martinez@realty.com,"8899 Cedar Ln",San Antonio,CA,2,2,1120,$554595,Condo,Off Market
+Susan Rodriguez,+1-568-903-3223,susan.rodriguez@realty.com,"3305 River St",San Diego,NY,2,3,1620,$725939,House,Sold
+Michael Johnson,+1-203-135-9564,michael.johnson@realty.com,"2425 River St",San Antonio,OH,5,1,3770,$578543,Condo,Sold
+James Thomas,654-297-3150,james.thomas@realty.com,"7863 Pine Rd",San Diego,IL,2,4,2962,$634572,Townhouse,Sold
+Sarah Gonzalez,+1-860-555-2497,sarah.gonzalez@realty.com,"6244 Maple Dr",Dallas,NY,2,2,3017,$893533,Apartment,Off Market
+Elizabeth Smith,+1-296-746-8186,elizabeth.smith@realty.com,"7697 Cedar Ln",Houston,CA,1,3,2543,$682271,Apartment,Off Market
+Jessica Wilson,926.837.2033,jessica.wilson@realty.com,"1071 Pine Rd",Houston,NC,5,3,1351,$611869,Villa,Active
+David Moore,468.159.9013,david.moore@realty.com,"9754 Pine Rd",San Antonio,FL,5,1,3297,$130125,Townhouse,Pending
+Joseph Lopez,955-166-9954,joseph.lopez@realty.com,"9384 Hill Rd",San Diego,NY,5,1,2050,$256506,Townhouse,Pending
+Richard Davis,+1-235-470-9255,richard.davis@realty.com,"7652 Park Ave",San Francisco,NY,5,4,3668,$866035,Apartment,Sold
+Thomas Lopez,(773) 830-6372,thomas.lopez@realty.com,"7739 Hill Rd",New York,FL,2,4,3767,$611081,Apartment,Off Market
+Karen Thomas,(643) 703-2856,karen.thomas@realty.com,"8851 Lake Dr",San Francisco,NY,3,3,2179,$405900,Condo,Off Market
+David Miller,+1-829-465-9149,david.miller@realty.com,"5113 Main St",Houston,NC,4,3,1565,$328670,Villa,Active
+Barbara Garcia,105.277.2957,barbara.garcia@realty.com,"8037 Hill Rd",Dallas,NC,4,2,1130,$593383,Villa,Sold
+Joseph Smith,379.222.1501,joseph.smith@realty.com,"3482 Pine Rd",Houston,CA,5,2,1050,$840308,Condo,Sold
+Nancy Davis,(547) 261-9814,nancy.davis@realty.com,"8942 Park Ave",San Antonio,NC,5,3,1321,$364481,House,Pending
+Lisa Lewis,531.777.9175,lisa.lewis@realty.com,"2951 Main St",Chicago,OH,5,4,880,$311712,Condo,Pending
+David Williams,923-102-1885,david.williams@realty.com,"2429 Cedar Ln",Philadelphia,MI,5,1,2592,$709172,Townhouse,Off Market
+Emily Martin,640.447.4009,emily.martin@realty.com,"5535 Cedar Ln",New York,TX,3,2,3129,$560412,Villa,Pending
+Karen White,(452) 453-7053,karen.white@realty.com,"6478 Lake Dr",Phoenix,MI,4,1,2880,$336313,Condo,Off Market
+Mary Harris,(406) 232-8078,mary.harris@realty.com,"5274 Pine Rd",Los Angeles,NC,2,2,3725,$812652,House,Pending
+John Sanchez,638-302-5917,john.sanchez@realty.com,"1219 Main St",Los Angeles,TX,2,4,2746,$788337,Apartment,Active
+William Sanchez,829.746.7912,william.sanchez@realty.com,"9201 Maple Dr",San Antonio,GA,2,2,901,$148931,House,Off Market
+William Lee,(967) 988-5647,william.lee@realty.com,"4348 Park Ave",Chicago,TX,5,2,1682,$786901,Townhouse,Off Market
+John White,+1-367-118-4808,john.white@realty.com,"4689 Main St",Los Angeles,NY,2,3,1181,$541882,Condo,Pending
+Christopher Thompson,939.865.5914,christopher.thompson@realty.com,"8520 Park Ave",San Diego,IL,3,2,1052,$301698,House,Active
+Mark Anderson,715.533.3036,mark.anderson@realty.com,"2626 Elm St",Chicago,IL,1,1,1852,$666188,Townhouse,Active
+Thomas Gonzalez,+1-729-942-7790,thomas.gonzalez@realty.com,"4880 Elm St",Phoenix,PA,4,4,1598,$214100,Apartment,Active
+Elizabeth Moore,421.787.5873,elizabeth.moore@realty.com,"8496 Maple Dr",Dallas,IL,4,4,2273,$563382,Apartment,Pending
+Robert Thomas,+1-148-736-9220,robert.thomas@realty.com,"7255 Main St",San Antonio,PA,4,2,1196,$118490,House,Active
+Christopher Lopez,561-302-1996,christopher.lopez@realty.com,"8292 Maple Dr",San Francisco,MI,5,3,2313,$125187,Townhouse,Active
+Lisa Anderson,781.717.6914,lisa.anderson@realty.com,"8463 Oak Ave",Houston,GA,1,1,3408,$167353,Townhouse,Sold
+Joseph Brown,648-432-4184,joseph.brown@realty.com,"8558 Main St",San Francisco,OH,5,3,2863,$946738,Villa,Active
+Jessica Hernandez,(309) 528-5254,jessica.hernandez@realty.com,"8419 River St",San Francisco,NY,5,3,977,$599486,Townhouse,Pending
+Jessica Smith,250.677.5446,jessica.smith@realty.com,"7597 Pine Rd",Phoenix,TX,1,2,2668,$871215,Villa,Active
+Sarah Miller,752.364.8129,sarah.miller@realty.com,"7329 Lake Dr",New York,TX,5,3,1920,$839361,Townhouse,Sold
+Thomas Hernandez,494-804-4688,thomas.hernandez@realty.com,"2360 Lake Dr",San Antonio,NY,1,1,1669,$458183,Condo,Active
+Mary Perez,+1-604-673-8119,mary.perez@realty.com,"8170 Pine Rd",Phoenix,GA,5,2,2051,$707415,Townhouse,Sold
+Daniel Johnson,618-480-7686,daniel.johnson@realty.com,"7623 Pine Rd",San Diego,CA,5,4,1170,$440042,Apartment,Off Market
+Charles Thomas,+1-801-780-6916,charles.thomas@realty.com,"8510 Hill Rd",Phoenix,NY,2,2,2550,$850852,Villa,Active
+Susan Perez,640.405.9632,susan.perez@realty.com,"3354 Cedar Ln",Phoenix,CA,2,4,3188,$417251,Villa,Pending
+Anthony Lee,(770) 925-5355,anthony.lee@realty.com,"4964 Lake Dr",San Antonio,NY,3,1,1267,$413198,Townhouse,Pending
+Anthony Smith,770.303.3381,anthony.smith@realty.com,"2487 Oak Ave",San Antonio,OH,1,1,2786,$284273,Condo,Active
+Joseph Lopez,294-742-4962,joseph.lopez@realty.com,"4416 Cedar Ln",Houston,CA,4,2,1313,$894144,House,Off Market
+Karen Martinez,385.723.7671,karen.martinez@realty.com,"8725 Main St",San Francisco,PA,1,1,1436,$924628,House,Active
+Anthony Wilson,964-485-4185,anthony.wilson@realty.com,"7330 Hill Rd",New York,PA,2,3,1877,$936007,Townhouse,Off Market
+Richard Hernandez,(719) 644-7544,richard.hernandez@realty.com,"1331 Park Ave",Phoenix,NY,3,3,3772,$830143,Townhouse,Active
+Thomas Smith,+1-118-820-2515,thomas.smith@realty.com,"9008 Oak Ave",Philadelphia,PA,2,2,3613,$826858,Condo,Pending
+Daniel Taylor,405-964-5241,daniel.taylor@realty.com,"2879 Main St",Philadelphia,CA,1,4,849,$598847,Villa,Active
+Patricia Gonzalez,+1-122-153-2419,patricia.gonzalez@realty.com,"6502 River St",San Diego,IL,3,4,3355,$143781,Apartment,Off Market
+Barbara Martinez,318-105-2082,barbara.martinez@realty.com,"9619 Main St",Dallas,GA,2,1,800,$196370,Villa,Off Market
+Susan Wilson,737-776-4493,susan.wilson@realty.com,"2586 Main St",San Antonio,FL,5,1,1260,$482385,Apartment,Sold
+Barbara Martinez,291.501.3222,barbara.martinez@realty.com,"1862 Cedar Ln",San Diego,OH,2,3,2167,$355494,House,Off Market
+David Anderson,+1-276-408-7769,david.anderson@realty.com,"7695 Cedar Ln",New York,PA,2,4,1169,$966229,House,Active
+William Jones,649.923.2181,william.jones@realty.com,"1786 Cedar Ln",Houston,PA,3,3,2745,$605915,Townhouse,Active
+Mary Martinez,150.823.1279,mary.martinez@realty.com,"1488 Elm St",San Francisco,PA,1,2,2375,$435474,Apartment,Sold
+David Rodriguez,(270) 905-9428,david.rodriguez@realty.com,"7084 Cedar Ln",Dallas,NC,5,2,3782,$647012,Condo,Sold
+Barbara Martinez,343-819-1665,barbara.martinez@realty.com,"4753 Maple Dr",Los Angeles,IL,2,3,1997,$999129,Condo,Pending
+Lisa Martinez,(421) 130-6235,lisa.martinez@realty.com,"6568 Lake Dr",Chicago,PA,2,1,2337,$617624,Townhouse,Active
+Anthony Miller,709-132-5523,anthony.miller@realty.com,"5363 Maple Dr",San Francisco,MI,3,4,3118,$256503,Condo,Off Market
+Sarah Gonzalez,127.894.7775,sarah.gonzalez@realty.com,"7933 Cedar Ln",Dallas,IL,5,3,892,$110171,Condo,Pending
+Michael Harris,+1-202-893-2293,michael.harris@realty.com,"6254 Maple Dr",New York,GA,4,3,1989,$305312,Townhouse,Pending
+Jessica Lewis,970-524-6662,jessica.lewis@realty.com,"9215 Main St",Houston,MI,1,4,2017,$386448,Villa,Pending
+Daniel Martin,734.333.7634,daniel.martin@realty.com,"4456 Cedar Ln",San Diego,FL,2,4,2280,$806509,Villa,Sold
+Betty Miller,(950) 869-4485,betty.miller@realty.com,"4730 River St",Philadelphia,FL,5,1,1686,$576369,Apartment,Pending
+James Perez,+1-937-555-6464,james.perez@realty.com,"6082 Lake Dr",San Antonio,PA,1,2,2697,$116413,Villa,Pending
+John Lee,+1-774-989-4187,john.lee@realty.com,"2553 Elm St",San Diego,IL,1,3,2216,$614903,Apartment,Off Market
+Charles Miller,(871) 348-5081,charles.miller@realty.com,"5154 River St",San Antonio,MI,4,1,1970,$399145,Townhouse,Sold
+Jennifer Gonzalez,+1-573-619-4562,jennifer.gonzalez@realty.com,"5632 Oak Ave",San Francisco,NC,3,2,2542,$333246,Villa,Off Market
+Sarah Jackson,876-564-2522,sarah.jackson@realty.com,"8505 Hill Rd",Houston,OH,4,2,3026,$418494,Apartment,Active
+Robert Davis,476.426.5319,robert.davis@realty.com,"5892 Elm St",Chicago,OH,1,4,3159,$219020,Apartment,Pending
+Lisa Robinson,347.457.9400,lisa.robinson@realty.com,"2342 Lake Dr",San Diego,PA,3,1,1293,$737932,Condo,Pending
+Christopher Harris,+1-472-514-5373,christopher.harris@realty.com,"8593 Oak Ave",San Diego,OH,5,1,1025,$889188,Villa,Sold
+Thomas Jackson,+1-177-936-7792,thomas.jackson@realty.com,"5398 Pine Rd",Philadelphia,TX,4,1,1488,$954395,Apartment,Active
+Joseph Taylor,709.517.1300,joseph.taylor@realty.com,"5865 Pine Rd",Houston,NY,2,4,2055,$787987,Villa,Off Market
+James Gonzalez,(865) 626-8144,james.gonzalez@realty.com,"2442 Park Ave",New York,FL,5,2,1448,$855550,Villa,Active
+Sarah Martinez,713-728-6895,sarah.martinez@realty.com,"1642 Hill Rd",Philadelphia,GA,3,2,843,$818668,Townhouse,Off Market
+Anthony Sanchez,134.377.3272,anthony.sanchez@realty.com,"3215 Lake Dr",Los Angeles,PA,5,4,1551,$839164,Apartment,Sold
+Lisa Gonzalez,+1-154-324-1744,lisa.gonzalez@realty.com,"9744 Main St",Chicago,PA,4,4,1340,$347260,Condo,Off Market
+Mary Clark,977-793-1911,mary.clark@realty.com,"7160 Elm St",New York,NC,2,4,1825,$666042,Townhouse,Sold
+John Johnson,333-743-4173,john.johnson@realty.com,"6824 Elm St",Houston,FL,1,4,3181,$597168,Apartment,Off Market
+Barbara Miller,(678) 984-4065,barbara.miller@realty.com,"8190 Cedar Ln",Phoenix,NC,3,3,2411,$168405,Condo,Off Market
+Betty Clark,+1-124-318-2982,betty.clark@realty.com,"6419 Oak Ave",New York,IL,4,1,2598,$470293,House,Active
+Barbara Wilson,(302) 901-6060,barbara.wilson@realty.com,"7737 Lake Dr",San Diego,NC,2,2,1259,$334323,House,Sold
+Karen Miller,+1-439-309-5938,karen.miller@realty.com,"5965 Oak Ave",Chicago,GA,4,1,3389,$212779,Villa,Active
+Jane Harris,109-880-7761,jane.harris@realty.com,"2361 Elm St",Dallas,CA,4,2,919,$241868,Townhouse,Active
+David Jackson,(340) 491-8719,david.jackson@realty.com,"2992 Hill Rd",San Francisco,PA,4,4,818,$263119,Townhouse,Sold
+Jane Martinez,640-329-3692,jane.martinez@realty.com,"3266 Maple Dr",Phoenix,GA,1,2,3752,$792524,Apartment,Active
+Jane Garcia,+1-534-776-2879,jane.garcia@realty.com,"8116 Elm St",San Francisco,MI,3,3,3050,$473518,Apartment,Sold
+Robert Smith,+1-156-338-7806,robert.smith@realty.com,"7325 Elm St",Los Angeles,PA,1,1,3546,$979545,Apartment,Active
+David Martin,583.243.5418,david.martin@realty.com,"8994 Main St",San Francisco,PA,1,1,2460,$908166,Villa,Active
+Anthony Clark,589.950.6386,anthony.clark@realty.com,"2139 Oak Ave",San Antonio,CA,5,1,3399,$838714,Villa,Pending
+Matthew Jones,895.665.6314,matthew.jones@realty.com,"7586 Cedar Ln",Dallas,IL,2,4,3240,$486289,Condo,Off Market
+Thomas Johnson,+1-634-590-3860,thomas.johnson@realty.com,"4622 Maple Dr",Houston,NY,3,3,2721,$308788,Condo,Active
+Jessica Jackson,(142) 583-2783,jessica.jackson@realty.com,"7091 Hill Rd",San Francisco,TX,5,2,1781,$994674,House,Off Market
+Mark Lopez,(379) 589-9203,mark.lopez@realty.com,"5213 Pine Rd",Chicago,GA,2,3,1705,$990096,Townhouse,Sold
+Anthony Lopez,(599) 123-1649,anthony.lopez@realty.com,"7006 River St",San Francisco,OH,1,1,1013,$276721,House,Pending
+Patricia Wilson,500-983-6134,patricia.wilson@realty.com,"1160 Pine Rd",Los Angeles,NC,2,3,1490,$984859,Villa,Active
+Michael Wilson,739-362-5497,michael.wilson@realty.com,"5116 River St",San Francisco,IL,2,4,1939,$815628,Condo,Active
+Christopher Gonzalez,961.942.7568,christopher.gonzalez@realty.com,"5925 Cedar Ln",San Diego,OH,3,3,1106,$162288,Condo,Sold
+David Jones,218.952.5458,david.jones@realty.com,"1995 Main St",Chicago,MI,2,3,1160,$109095,Apartment,Pending
+Daniel Perez,769-334-4752,daniel.perez@realty.com,"4116 Elm St",New York,MI,5,1,1596,$804030,Villa,Sold
+Thomas Lee,812-349-5349,thomas.lee@realty.com,"6636 River St",San Diego,CA,4,3,3171,$545412,Condo,Pending
+Joseph Lee,162.346.3895,joseph.lee@realty.com,"6084 Main St",San Francisco,GA,5,2,1359,$520177,Villa,Active
+Christopher Rodriguez,113.541.7522,christopher.rodriguez@realty.com,"3582 River St",San Antonio,NY,4,1,3415,$588901,Villa,Off Market
+Jane Johnson,607-305-1947,jane.johnson@realty.com,"4357 Pine Rd",San Francisco,PA,2,4,1805,$755673,Townhouse,Active
+Sarah Lopez,534-441-9534,sarah.lopez@realty.com,"9994 Cedar Ln",San Antonio,FL,1,3,2901,$719216,Condo,Sold
+John Hernandez,845.692.3712,john.hernandez@realty.com,"1010 Park Ave",Dallas,GA,2,4,957,$678089,Condo,Sold
+Joseph Perez,772-444-1028,joseph.perez@realty.com,"6065 Maple Dr",New York,TX,4,4,2866,$794224,Apartment,Pending
+Jessica Perez,794.427.8422,jessica.perez@realty.com,"5111 Oak Ave",New York,NC,4,1,3630,$859404,House,Pending
+Anthony Davis,365.765.8078,anthony.davis@realty.com,"3820 Main St",Philadelphia,NC,5,1,3353,$240550,Condo,Active
+Robert Martin,672.613.2410,robert.martin@realty.com,"2732 Main St",Phoenix,NC,5,3,3434,$533710,Condo,Pending
+Emily Smith,+1-632-244-4118,emily.smith@realty.com,"5911 Main St",Phoenix,MI,2,1,2119,$793423,Apartment,Active
+Jane Lopez,195-793-8100,jane.lopez@realty.com,"8896 Lake Dr",Philadelphia,MI,4,2,1532,$486541,Apartment,Sold
+Mark Lopez,323-388-6836,mark.lopez@realty.com,"4489 Lake Dr",Dallas,NY,5,2,902,$177606,Townhouse,Off Market
+Jessica Williams,+1-219-207-6811,jessica.williams@realty.com,"9391 Lake Dr",San Francisco,FL,5,2,1067,$265437,Townhouse,Sold
+Daniel Harris,153.272.8074,daniel.harris@realty.com,"8146 Main St",San Diego,NY,1,1,2646,$481765,Villa,Active
+Emily Lopez,290-685-3971,emily.lopez@realty.com,"2528 Main St",Philadelphia,PA,5,1,3773,$538228,Villa,Off Market
+Lisa Clark,863-508-4128,lisa.clark@realty.com,"3112 Pine Rd",Dallas,TX,5,3,3183,$700550,Condo,Pending
+William Perez,352-434-1408,william.perez@realty.com,"7116 Elm St",Philadelphia,GA,2,3,3435,$388618,Townhouse,Pending
+John Perez,437-255-9945,john.perez@realty.com,"3285 Lake Dr",Chicago,CA,2,1,2431,$693403,Condo,Pending
+Susan White,(543) 626-7017,susan.white@realty.com,"4398 Oak Ave",Chicago,GA,5,2,3431,$902640,Apartment,Sold
+William Hernandez,295.884.6578,william.hernandez@realty.com,"8623 Pine Rd",San Francisco,IL,5,3,1251,$530307,House,Active
+Daniel Wilson,722-585-2456,daniel.wilson@realty.com,"7771 Main St",Philadelphia,IL,1,4,956,$108754,Apartment,Off Market
+John Davis,(855) 908-6314,john.davis@realty.com,"2118 Main St",Dallas,NC,2,4,1680,$958124,Condo,Active
+Susan Ramirez,+1-364-834-5218,susan.ramirez@realty.com,"5622 Oak Ave",San Diego,PA,4,3,2616,$520149,Townhouse,Active
+Joseph Lopez,897-130-8533,joseph.lopez@realty.com,"6605 Lake Dr",Philadelphia,IL,3,2,3790,$244985,Villa,Sold
+Sarah Harris,905-958-7118,sarah.harris@realty.com,"6489 Hill Rd",Los Angeles,OH,4,1,2233,$672168,Condo,Pending
+Lisa Wilson,931-124-9676,lisa.wilson@realty.com,"5622 Hill Rd",Los Angeles,CA,1,2,830,$893966,Townhouse,Active
+Susan Davis,722-718-3863,susan.davis@realty.com,"7556 Maple Dr",Chicago,CA,1,2,2207,$756606,Townhouse,Pending
+Patricia Sanchez,377-872-5842,patricia.sanchez@realty.com,"5884 Park Ave",San Francisco,CA,4,1,1045,$289440,Villa,Active
+Christopher Robinson,761.708.3135,christopher.robinson@realty.com,"6556 Hill Rd",Houston,FL,1,4,3495,$454260,Condo,Sold
+James Davis,792-404-7452,james.davis@realty.com,"7059 River St",San Francisco,CA,5,3,2727,$218834,House,Sold
+Michael Harris,+1-760-403-6693,michael.harris@realty.com,"6122 Main St",Philadelphia,NY,4,2,3226,$668504,Townhouse,Sold
+Emily Rodriguez,(322) 365-5767,emily.rodriguez@realty.com,"9430 Pine Rd",Phoenix,GA,3,3,881,$487799,Condo,Active
+Linda Davis,+1-944-423-2838,linda.davis@realty.com,"5682 Elm St",New York,IL,5,2,1034,$168755,Villa,Off Market
+Sarah Miller,+1-832-723-9742,sarah.miller@realty.com,"1321 Lake Dr",San Francisco,MI,4,4,2398,$876663,House,Active
+Matthew Thompson,186.810.5762,matthew.thompson@realty.com,"8845 Lake Dr",Los Angeles,CA,2,4,2716,$834978,Condo,Off Market
+Lisa Gonzalez,(502) 400-6060,lisa.gonzalez@realty.com,"8189 Pine Rd",Los Angeles,PA,5,4,1263,$851261,Villa,Pending
+Emily Thompson,(273) 897-3079,emily.thompson@realty.com,"7296 Pine Rd",Philadelphia,MI,5,3,2226,$303929,House,Pending
+Patricia Hernandez,(463) 806-2804,patricia.hernandez@realty.com,"3546 Elm St",Los Angeles,NY,5,2,2013,$539314,Apartment,Off Market
+Elizabeth Gonzalez,494-879-6427,elizabeth.gonzalez@realty.com,"7779 Lake Dr",San Diego,FL,5,1,1526,$411197,Villa,Sold
+Christopher Johnson,(247) 477-7742,christopher.johnson@realty.com,"6208 Hill Rd",Chicago,IL,5,2,1655,$535770,Villa,Sold
+Joseph Taylor,465-283-4197,joseph.taylor@realty.com,"3748 Pine Rd",San Francisco,IL,4,2,3382,$842518,Villa,Active
+Elizabeth Anderson,(108) 149-1696,elizabeth.anderson@realty.com,"8247 Pine Rd",Phoenix,IL,1,2,1368,$729634,Apartment,Pending
+Emily Martin,970.842.2956,emily.martin@realty.com,"2889 Main St",New York,CA,3,2,2174,$330221,Villa,Off Market
+Joseph Anderson,+1-475-200-7731,joseph.anderson@realty.com,"8409 Cedar Ln",Dallas,CA,3,1,3125,$226896,Condo,Active
+Susan Taylor,(223) 617-7619,susan.taylor@realty.com,"5081 River St",New York,MI,2,2,1861,$901175,Apartment,Off Market
+Jane Sanchez,(804) 876-3160,jane.sanchez@realty.com,"6301 Park Ave",Houston,TX,5,3,3743,$743019,Townhouse,Sold
+Jessica Hernandez,599.248.2358,jessica.hernandez@realty.com,"4119 Hill Rd",San Francisco,MI,4,3,2287,$111130,Apartment,Off Market
+Jane Miller,+1-617-879-8991,jane.miller@realty.com,"8330 Elm St",Chicago,NY,5,1,2731,$970138,Apartment,Pending
+Richard Robinson,+1-472-578-8984,richard.robinson@realty.com,"2292 Maple Dr",San Diego,GA,5,1,2982,$964051,Condo,Pending
+Linda Garcia,+1-941-926-7985,linda.garcia@realty.com,"5679 Elm St",Dallas,OH,2,2,806,$470656,Condo,Active
+Charles Brown,313-304-1580,charles.brown@realty.com,"6890 Park Ave",Houston,IL,3,1,1908,$226729,Townhouse,Off Market
+Thomas Lopez,(312) 173-3919,thomas.lopez@realty.com,"5046 Main St",Houston,NC,1,1,2115,$309994,Apartment,Off Market
+David Williams,+1-220-333-9276,david.williams@realty.com,"8253 Elm St",Dallas,CA,3,2,2910,$418622,Townhouse,Pending
+Betty White,+1-604-101-2970,betty.white@realty.com,"5051 Park Ave",San Antonio,FL,4,3,2088,$431357,House,Sold
+Patricia Martin,275-335-4048,patricia.martin@realty.com,"9116 Maple Dr",San Francisco,FL,5,1,1032,$271950,Villa,Sold
+Emily Wilson,+1-499-515-5123,emily.wilson@realty.com,"4050 Oak Ave",Los Angeles,NY,5,3,1427,$552633,Apartment,Sold
+Patricia White,189.535.4188,patricia.white@realty.com,"4209 Lake Dr",Philadelphia,PA,5,4,2581,$905117,Townhouse,Sold
+Karen Lopez,911-428-2712,karen.lopez@realty.com,"2540 Cedar Ln",Phoenix,FL,3,4,3714,$881694,Apartment,Pending
+Michael Wilson,644.173.4886,michael.wilson@realty.com,"3405 River St",San Francisco,PA,5,4,1230,$677094,Villa,Active
+Betty Moore,(573) 680-2157,betty.moore@realty.com,"3674 Main St",Dallas,NY,5,3,3486,$209073,Townhouse,Active
+James Davis,763.971.3192,james.davis@realty.com,"5530 Maple Dr",Houston,FL,1,2,2539,$234801,Villa,Pending
+Emily Smith,196-870-3902,emily.smith@realty.com,"6588 Maple Dr",New York,PA,3,1,939,$541245,Villa,Sold
+Nancy Thomas,665.419.3568,nancy.thomas@realty.com,"4887 Cedar Ln",Dallas,FL,4,3,1721,$817747,House,Sold
+John Thomas,+1-626-965-6740,john.thomas@realty.com,"3418 Cedar Ln",Chicago,MI,5,3,1255,$217957,Townhouse,Active
+Patricia Lee,220.662.8320,patricia.lee@realty.com,"1650 Pine Rd",Houston,NY,4,3,2989,$252706,Apartment,Pending
+Jennifer Thompson,220.160.9265,jennifer.thompson@realty.com,"4896 River St",Los Angeles,TX,3,3,2749,$686616,Condo,Active
+Jessica Anderson,+1-706-623-4992,jessica.anderson@realty.com,"3942 Lake Dr",Chicago,FL,4,4,2878,$409815,Apartment,Off Market
+Thomas Smith,966-102-6461,thomas.smith@realty.com,"9010 Maple Dr",Philadelphia,MI,4,3,1441,$391988,Villa,Active
+Jennifer Smith,+1-677-564-7072,jennifer.smith@realty.com,"1108 Park Ave",New York,GA,3,1,861,$360283,Villa,Pending
+Barbara Wilson,(138) 747-1242,barbara.wilson@realty.com,"2795 Cedar Ln",Philadelphia,CA,1,2,1579,$528555,Villa,Off Market
+Matthew Taylor,(203) 427-5087,matthew.taylor@realty.com,"9713 Park Ave",San Diego,IL,2,2,802,$591431,Townhouse,Off Market
+Jennifer Perez,+1-953-617-8177,jennifer.perez@realty.com,"5661 Park Ave",Houston,PA,1,1,1521,$212714,Condo,Active
+Emily Taylor,+1-967-804-8022,emily.taylor@realty.com,"8116 Park Ave",Chicago,NY,3,2,2885,$489422,Apartment,Pending
+Thomas Gonzalez,+1-511-600-2126,thomas.gonzalez@realty.com,"3035 Hill Rd",Dallas,NC,3,4,2541,$250379,Condo,Sold
+Elizabeth Garcia,+1-527-928-7644,elizabeth.garcia@realty.com,"4841 Lake Dr",Los Angeles,IL,5,4,873,$951897,Villa,Off Market
+Robert Wilson,(283) 155-8970,robert.wilson@realty.com,"2213 Hill Rd",Dallas,OH,2,1,862,$630849,Apartment,Active
+Richard Miller,405.340.8645,richard.miller@realty.com,"8701 Maple Dr",Phoenix,PA,3,2,3776,$984612,Villa,Pending
+Anthony Martinez,332.834.8335,anthony.martinez@realty.com,"8096 Maple Dr",San Diego,TX,3,2,2983,$786026,Condo,Off Market
+John Williams,600.461.4574,john.williams@realty.com,"1492 Park Ave",Dallas,NY,5,4,1844,$665320,Townhouse,Pending
+Betty Brown,697-279-1943,betty.brown@realty.com,"9522 Pine Rd",Phoenix,PA,4,4,3385,$846708,Condo,Sold
+William Clark,+1-635-996-9500,william.clark@realty.com,"5534 Pine Rd",Philadelphia,OH,3,2,1512,$434511,Townhouse,Active
+Patricia Williams,161-997-8938,patricia.williams@realty.com,"8721 Oak Ave",San Francisco,CA,2,1,1907,$251957,House,Active
+Nancy Robinson,450-709-9522,nancy.robinson@realty.com,"6453 Park Ave",New York,OH,5,3,1447,$755666,House,Pending
+Mary Garcia,489.705.4500,mary.garcia@realty.com,"2059 Maple Dr",Chicago,PA,5,3,1851,$354722,Villa,Active
+Susan Davis,+1-707-370-5990,susan.davis@realty.com,"6174 Oak Ave",Dallas,PA,3,4,2475,$685327,Townhouse,Active
+Emily Garcia,(891) 612-9744,emily.garcia@realty.com,"2514 River St",San Francisco,OH,1,3,2731,$866113,Townhouse,Active
+Susan Taylor,+1-824-611-6321,susan.taylor@realty.com,"2182 Elm St",San Antonio,NY,2,1,3494,$287013,House,Pending
+Jane Williams,632.651.8192,jane.williams@realty.com,"2967 Cedar Ln",Dallas,GA,5,1,1089,$191677,House,Sold
+Michael Perez,432-744-7394,michael.perez@realty.com,"4274 Park Ave",San Antonio,CA,4,3,1435,$450771,Apartment,Off Market
+Linda Thompson,(779) 982-6332,linda.thompson@realty.com,"7193 Maple Dr",Houston,FL,3,2,1416,$468198,Apartment,Active
+Robert Sanchez,+1-443-429-5212,robert.sanchez@realty.com,"8161 Hill Rd",Dallas,IL,4,4,2804,$715569,Townhouse,Active
+Linda Anderson,+1-755-925-4672,linda.anderson@realty.com,"6173 Oak Ave",Phoenix,IL,4,4,1031,$778388,Villa,Off Market
+Anthony Anderson,444.432.6681,anthony.anderson@realty.com,"1179 River St",Dallas,IL,4,3,1341,$522035,Condo,Active
+Jane Miller,366.373.7309,jane.miller@realty.com,"5345 Main St",San Francisco,IL,1,3,2250,$763991,Apartment,Pending
+William Harris,(331) 838-7007,william.harris@realty.com,"7484 Lake Dr",New York,CA,3,1,2001,$514126,Apartment,Off Market
+Karen Thomas,539.689.4654,karen.thomas@realty.com,"7766 Park Ave",Los Angeles,MI,5,4,1173,$428461,House,Active
+Christopher Lewis,424.954.2806,christopher.lewis@realty.com,"6048 Pine Rd",Los Angeles,FL,1,4,1675,$246750,Villa,Off Market
+Nancy Hernandez,106-398-1043,nancy.hernandez@realty.com,"4722 River St",Phoenix,IL,2,1,988,$970692,Apartment,Active
+Patricia Gonzalez,+1-271-871-6478,patricia.gonzalez@realty.com,"4859 Elm St",Philadelphia,MI,3,3,2213,$110737,Townhouse,Sold
+Betty Miller,862.339.3308,betty.miller@realty.com,"8941 Park Ave",San Francisco,NC,2,3,1173,$303196,Townhouse,Pending
+Karen Thompson,143.122.1733,karen.thompson@realty.com,"3752 Cedar Ln",San Antonio,IL,1,2,1546,$538715,House,Sold
+Betty Thompson,(178) 537-4883,betty.thompson@realty.com,"7918 Maple Dr",Los Angeles,FL,2,1,1159,$818257,Condo,Off Market
+Robert Moore,+1-836-111-4294,robert.moore@realty.com,"4586 Park Ave",New York,NY,3,3,2235,$507603,Apartment,Sold
+Christopher Martinez,288-422-1720,christopher.martinez@realty.com,"5712 Elm St",San Francisco,IL,4,1,2548,$584873,House,Active
+David Harris,(521) 540-4392,david.harris@realty.com,"2089 Oak Ave",Los Angeles,OH,1,1,811,$901633,House,Sold
+Matthew Robinson,(525) 580-1384,matthew.robinson@realty.com,"5598 Elm St",San Diego,FL,4,4,2259,$881477,Townhouse,Active
+William Davis,(749) 836-2410,william.davis@realty.com,"7062 Maple Dr",Houston,GA,4,1,951,$507395,Condo,Active
+Emily White,923.885.8843,emily.white@realty.com,"5880 Main St",Phoenix,NY,1,1,1816,$461830,House,Off Market
+Christopher Lewis,784.319.7796,christopher.lewis@realty.com,"4057 River St",Houston,MI,4,2,3773,$759192,Apartment,Sold
+Betty Williams,252-317-9035,betty.williams@realty.com,"3412 River St",New York,OH,4,1,2158,$207182,House,Active
+Robert Jackson,171.438.9072,robert.jackson@realty.com,"4355 Hill Rd",Los Angeles,NY,5,1,1917,$334121,Apartment,Off Market
+Jennifer Perez,(335) 436-6964,jennifer.perez@realty.com,"9947 Maple Dr",Los Angeles,IL,2,2,3411,$442665,House,Active
+Christopher Jones,+1-914-785-2185,christopher.jones@realty.com,"8345 River St",San Antonio,NC,3,2,1341,$450311,Condo,Off Market
+Mark Ramirez,536.914.7682,mark.ramirez@realty.com,"7018 Maple Dr",Houston,NC,3,1,3418,$595885,Condo,Active
+William White,(653) 767-4915,william.white@realty.com,"5134 Hill Rd",Chicago,MI,5,2,1726,$167079,Townhouse,Pending
+Betty Perez,(405) 966-6288,betty.perez@realty.com,"4086 River St",Dallas,OH,3,3,2681,$315838,Apartment,Off Market
+Elizabeth Lopez,(527) 987-7121,elizabeth.lopez@realty.com,"5953 Pine Rd",San Antonio,PA,3,1,813,$963844,Apartment,Active
+Mark Rodriguez,(976) 893-5997,mark.rodriguez@realty.com,"2592 Park Ave",Chicago,CA,1,1,3785,$934983,Villa,Pending
+Thomas Clark,356-110-4234,thomas.clark@realty.com,"6877 Lake Dr",San Antonio,NY,3,4,1234,$488738,Villa,Active
+Linda Williams,849.403.4714,linda.williams@realty.com,"3116 Main St",San Francisco,IL,4,4,2288,$373937,Townhouse,Pending
+Richard Martin,(589) 246-2906,richard.martin@realty.com,"5320 River St",San Diego,OH,5,1,1889,$606851,Townhouse,Sold
+Richard Martin,715.699.7623,richard.martin@realty.com,"4359 Park Ave",New York,NY,2,4,1373,$297843,Apartment,Sold
+Charles Perez,764-576-6953,charles.perez@realty.com,"1887 Hill Rd",Chicago,OH,5,2,2095,$979949,Condo,Sold
+Patricia Williams,(187) 287-7982,patricia.williams@realty.com,"7254 Park Ave",Chicago,FL,5,3,3462,$244847,Townhouse,Active
+Thomas Sanchez,462.808.6887,thomas.sanchez@realty.com,"7871 Lake Dr",Dallas,MI,3,4,2600,$112563,Villa,Off Market
+William Miller,+1-322-233-3004,william.miller@realty.com,"7488 Pine Rd",Los Angeles,GA,1,3,1421,$421467,Condo,Active
+Mary Jones,802.468.4344,mary.jones@realty.com,"5163 Hill Rd",Phoenix,OH,3,3,930,$543151,House,Active
+Daniel Johnson,778-726-1399,daniel.johnson@realty.com,"8879 River St",Chicago,MI,2,4,2640,$423591,Townhouse,Off Market
+Karen Ramirez,(743) 683-9846,karen.ramirez@realty.com,"8086 Park Ave",Dallas,PA,5,3,3027,$820506,Apartment,Active
+Robert Martin,+1-245-382-7042,robert.martin@realty.com,"8435 Hill Rd",New York,NC,2,3,1064,$193194,Apartment,Active
+Mary Brown,389-665-8120,mary.brown@realty.com,"9473 Cedar Ln",Phoenix,GA,3,1,1808,$256506,Townhouse,Pending
+Susan Lewis,(937) 998-9401,susan.lewis@realty.com,"1099 Maple Dr",New York,MI,5,4,2331,$252706,Townhouse,Off Market
+Patricia Taylor,284-715-8635,patricia.taylor@realty.com,"1870 Park Ave",San Francisco,IL,3,2,1293,$938925,Townhouse,Sold
+Jennifer Anderson,(340) 570-4463,jennifer.anderson@realty.com,"3250 Pine Rd",San Francisco,FL,4,3,2119,$644281,House,Active
+Elizabeth Jones,+1-710-931-7995,elizabeth.jones@realty.com,"5237 Lake Dr",Chicago,TX,3,4,3539,$554139,House,Active
+John Johnson,887-555-6063,john.johnson@realty.com,"3747 Hill Rd",Phoenix,NY,3,4,3218,$400570,Condo,Off Market
+Linda Jackson,922.861.4715,linda.jackson@realty.com,"3509 Cedar Ln",Phoenix,FL,4,3,1163,$512289,Apartment,Pending
+Susan White,535-219-1392,susan.white@realty.com,"9290 River St",San Diego,NC,3,4,2831,$784924,Condo,Off Market
+Nancy Garcia,383.294.3577,nancy.garcia@realty.com,"7825 Maple Dr",Los Angeles,NC,2,4,3499,$249624,Condo,Sold
+Matthew Brown,670-215-7222,matthew.brown@realty.com,"1044 Pine Rd",San Antonio,IL,4,4,2222,$855143,Condo,Off Market
+Patricia Brown,(550) 464-6965,patricia.brown@realty.com,"9840 Oak Ave",New York,TX,2,4,2017,$567262,Villa,Sold
+James Thompson,614.706.4031,james.thompson@realty.com,"7876 Park Ave",New York,CA,1,4,3113,$681278,Villa,Sold
+Mark Martin,+1-489-121-9473,mark.martin@realty.com,"5083 Lake Dr",Philadelphia,IL,3,2,2228,$133469,House,Sold
+Michael Jones,389-789-4949,michael.jones@realty.com,"6798 Pine Rd",New York,FL,4,2,1997,$602994,Condo,Sold
+Jennifer Smith,(620) 690-7173,jennifer.smith@realty.com,"7446 Elm St",San Antonio,OH,1,3,1259,$302509,House,Sold
+Sarah Martinez,694-406-8568,sarah.martinez@realty.com,"6642 Oak Ave",Los Angeles,PA,2,2,2874,$585813,Villa,Off Market
+Christopher Wilson,622.891.9832,christopher.wilson@realty.com,"3943 River St",San Francisco,PA,5,2,2778,$956858,Villa,Active
+Patricia Jones,+1-561-446-4935,patricia.jones@realty.com,"3595 Main St",Philadelphia,NC,1,2,2857,$602521,Condo,Off Market
+Susan Lee,+1-597-858-8080,susan.lee@realty.com,"2853 Cedar Ln",Houston,PA,2,3,3261,$401289,Villa,Active
+Christopher Hernandez,715-186-8397,christopher.hernandez@realty.com,"2213 Elm St",Philadelphia,OH,4,4,3554,$169254,Apartment,Active
+Barbara Gonzalez,972.266.3697,barbara.gonzalez@realty.com,"8769 Elm St",Dallas,OH,1,1,3105,$149131,Townhouse,Sold
+Susan Robinson,765.578.3218,susan.robinson@realty.com,"2650 Pine Rd",Houston,FL,2,3,1323,$221551,Villa,Off Market
+Thomas Clark,417.314.8477,thomas.clark@realty.com,"8486 River St",San Francisco,CA,1,4,1072,$324702,Townhouse,Active
+John Wilson,153-726-8754,john.wilson@realty.com,"5728 Oak Ave",Philadelphia,NC,3,1,1876,$578742,Apartment,Pending
+John Harris,330.187.2238,john.harris@realty.com,"3945 Main St",Philadelphia,PA,1,1,2127,$287722,Townhouse,Off Market
+Mark Smith,(722) 320-3505,mark.smith@realty.com,"4154 Cedar Ln",Phoenix,GA,2,3,2022,$764497,House,Pending
