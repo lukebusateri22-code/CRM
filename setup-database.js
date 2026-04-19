@@ -18,7 +18,9 @@ async function setupDatabase() {
     console.log('✅ Connected to database\n');
 
     // Read migration file
-    const migrationSQL = fs.readFileSync('./server/migrations/001_initial_schema.sql', 'utf-8');
+    const path = require('path');
+    const migrationPath = path.join(__dirname, 'server', 'migrations', '001_initial_schema.sql');
+    const migrationSQL = fs.readFileSync(migrationPath, 'utf-8');
     
     console.log('📝 Running migrations...\n');
     await client.query(migrationSQL);
